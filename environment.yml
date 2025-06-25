@@ -18,9 +18,10 @@ dependencies:
   - pandas
   - nbformat>=4.2.0
   - plotly
-  - notebook    
+  - notebook
   - ipywidgets
   - jupyterlab
+  - seaborn
   - pip:
       - imageio
       - moviepy

@@ -1,1 +1,1 @@
-/usr/bin/cc  -fopenmp -O3 -DNDEBUG CMakeFiles/openmp.dir/src/main_openmp.c.o CMakeFiles/solver.dir/src/solver.c.o -o openmp  -lm /usr/lib/gcc/x86_64-redhat-linux/14/libgomp.so /usr/lib64/libpthread.a
+/usr/bin/cc    -O3 -march=native -ffast-math -Wall   -fopenmp -O3 -DNDEBUG CMakeFiles/openmp.dir/src/main_openmp.c.o CMakeFiles/solver.dir/src/solver.c.o -o openmp  -lm /usr/lib/gcc/x86_64-redhat-linux/14/libgomp.so /usr/lib64/libpthread.a

@@ -1,1 +1,1 @@
-/usr/bin/cc  -fopenmp -O3 -DNDEBUG CMakeFiles/serial.dir/src/main_serial.c.o CMakeFiles/solver.dir/src/solver.c.o -o serial  -lm
+/usr/bin/cc    -O3 -march=native -ffast-math -Wall   -fopenmp -O3 -DNDEBUG CMakeFiles/serial.dir/src/main_serial.c.o CMakeFiles/solver.dir/src/solver.c.o -o serial  -lm

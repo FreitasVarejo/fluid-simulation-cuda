@@ -22,65 +22,74 @@ void initialize(double u[NX][NY], double v[NX][NY], double p[NX][NY]) {
 
 
 // Função para resolver a equação de Poisson para pressão
-void solve_pressure(double u[NX][NY], double v[NX][NY], double p[NX][NY]) {
-    double p_new[NX][NY];
-    double error, max_error;
-    int iter = 0;
-    const int max_iter = 1000;
-    const double tolerance = 1e-6;
+void solve_pressure(double u[NX][NY], double v[NX][NY], double p[NX][NY])
+{
+    static double p_new[NX][NY];
+    const int    max_iter   = 1000;
+    const double tolerance  = 1e-6;
 
-    // Copia os valores atuais de pressão (paralelizado)
     #pragma omp parallel for collapse(2)
-    for (int i = 0; i < NX; i++) {
-        for (int j = 0; j < NY; j++) {
+    for (int i = 0; i < NX; ++i)
+        for (int j = 0; j < NY; ++j)
             p_new[i][j] = p[i][j];
-        }
-    }
 
-    // Iteração de relaxação
-    do {
-        max_error = 0.0;
+    int    iter;
+    double max_error;
 
-        // Paraleliza o loop principal com redução para max_error
-        #pragma omp parallel for collapse(2) reduction(max:max_error)
-        for (int i = 1; i < NX-1; i++) {
-            for (int j = 1; j < NY-1; j++) {
-                double div_u = (u[i+1][j] - u[i-1][j])/(2.0*DX) +
-                              (v[i][j+1] - v[i][j-1])/(2.0*DY);
+    // laço de relaxação
+    #pragma omp parallel
+    {
+        for (iter = 0; iter < max_iter; ++iter) {
 
-                double p_old = p_new[i][j];
-                p_new[i][j] = ((p_new[i+1][j] + p_new[i-1][j])*DY*DY +
-                              (p_new[i][j+1] + p_new[i][j-1])*DX*DX -
-                              RHO*DX*DX*DY*DY*div_u/DT) /
-                              (2.0*(DX*DX + DY*DY));
+            double local_max = 0.0;
+            #pragma omp for collapse(2) nowait
+            for (int i = 1; i < NX - 1; ++i) {
+                for (int j = 1; j < NY - 1; ++j) {
 
-                error = fabs(p_new[i][j] - p_old);
-                if (error > max_error) max_error = error;
+                    const double div_u =
+                          (u[i+1][j] - u[i-1][j]) * (0.5 / DX)
+                        + (v[i][j+1] - v[i][j-1]) * (0.5 / DY);
+
+                    const double p_old = p_new[i][j];
+
+                    p_new[i][j] = ( (p_new[i+1][j] + p_new[i-1][j]) * DY*DY +
+                                    (p_new[i][j+1] + p_new[i][j-1]) * DX*DX -
+                                    RHO * DX*DX * DY*DY * div_u / DT ) /
+                                   (2.0 * (DX*DX + DY*DY));
+
+                    const double err = fabs(p_new[i][j] - p_old);
+                    if (err > local_max) local_max = err;
+                }
             }
-        }
 
-        // Condições de contorno periódicas (paralelizado)
-        #pragma omp parallel for
-        for (int i = 0; i < NX; i++) {
-            p_new[i][0] = p_new[i][1];
-            p_new[i][NY-1] = p_new[i][NY-2];
-        }
-        #pragma omp parallel for
-        for (int j = 0; j < NY; j++) {
-            p_new[0][j] = p_new[1][j];
-            p_new[NX-1][j] = p_new[NX-2][j];
-        }
+            #pragma omp critical
+            {
+                if (local_max > max_error) max_error = local_max;
+            }
+            #pragma omp barrier
 
-        iter++;
-    } while (max_error > tolerance && iter < max_iter);
+            if (max_error <= tolerance) break;
+            max_error = 0.0;
 
-    // Atualiza a pressão (paralelizado)
-    #pragma omp parallel for collapse(2)
-    for (int i = 0; i < NX; i++) {
-        for (int j = 0; j < NY; j++) {
-            p[i][j] = p_new[i][j];
+            #pragma omp single
+            {
+                for (int i = 0; i < NX; ++i) {
+                    p_new[i][0]    = p_new[i][1];
+                    p_new[i][NY-1] = p_new[i][NY-2];
+                }
+                for (int j = 0; j < NY; ++j) {
+                    p_new[0][j]    = p_new[1][j];
+                    p_new[NX-1][j] = p_new[NX-2][j];
+                }
+            }
+            #pragma omp barrier
         }
     }
+
+    #pragma omp parallel for collapse(2)
+    for (int i = 0; i < NX; ++i)
+        for (int j = 0; j < NY; ++j)
+            p[i][j] = p_new[i][j];
 }
 
 void update_velocities(double u[NX][NY],
