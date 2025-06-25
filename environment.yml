@@ -1,0 +1,26 @@
+# environment.yml
+
+name: fluid-waves
+channels:
+  - nvidia
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pytorch=2.5.1
+  - pytorch-cuda=12.1
+  - torchaudio
+  - torchvision
+  - numpy
+  - matplotlib
+  - pandas
+  - nbformat>=4.2.0
+  - plotly
+  - notebook    
+  - ipywidgets
+  - jupyterlab
+  - pip:
+      - imageio
+      - moviepy
