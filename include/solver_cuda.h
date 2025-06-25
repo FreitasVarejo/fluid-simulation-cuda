@@ -1,9 +1,22 @@
+// solver_cuda.h
 #pragma once
+
 #ifdef __CUDACC__
-/* protótipo visível para host e device - evita mangling divergente */
-__global__ void update_velocities_kernel(double *__restrict__ u,
-                                         double *__restrict__ v,
-                                         double *__restrict__ p,
-                                         double *__restrict__ u_new,
-                                         double *__restrict__ v_new);
+__global__ void initialize_kernel(double*, double*, double*);
+__global__ void update_velocities_kernel(double*, double*, double*, double*, double*);
+__global__ void solve_pressure_kernel(const double*, const double*, const double*, double*);
+#endif
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+void save_results_cuda(const char *variant,
+                       const char *cfg,
+                       const char *param,
+                       int   step,
+                       const double *p_host);
+
+#ifdef __cplusplus
+}
 #endif

@@ -30,7 +30,7 @@ set(CMAKE_CUDA_FLAGS "${CMAKE_CUDA_FLAGS} --expt-relaxed-constexpr -O3")
 find_package(OpenMP REQUIRED)          # falha cedo se não houver suporte
 set(CMAKE_C_FLAGS   "${CMAKE_C_FLAGS}   ${OpenMP_C_FLAGS}")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OpenMP_CXX_FLAGS}")
-add_compile_definitions(_OPENMP)
+#add_compile_definitions(_OPENMP)
 
 # ───────── includes ─────────────────────────────────────────────────────────
 include_directories(${CMAKE_SOURCE_DIR}/include)

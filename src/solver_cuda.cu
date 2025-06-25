@@ -2,6 +2,7 @@
 
 #include <cuda_runtime.h>
 #include <math.h>
+#include <stdio.h> 
 #include "solver_cuda.h"
 #include "params.h"
 
@@ -119,4 +120,26 @@ __global__ void solve_pressure_kernel(const double *u, const double *v, const do
                      RHO*DX*DX*DY*DY*div_u/DT) /
                      (2.0*(DX*DX + DY*DY));
     }
+}
+
+void save_results_cuda(const char *variant, const char *cfg, const char *param,
+                       int step, const double *p_host)
+{
+    char folder[256];
+    sprintf(folder, "data/%s/%s/%s", variant, cfg, param);
+    char cmd[300];
+    sprintf(cmd, "mkdir -p %s", folder);
+    system(cmd);
+
+    char filename[300];
+    sprintf(filename, "%s/wave_%04d.dat", folder, step);
+    FILE *file = fopen(filename, "w");
+
+    for (int i = 0; i < NX; ++i) {
+        for (int j = 0; j < NY; ++j) {
+            fprintf(file, "%d %d %f\n", i, j, p_host[i * NY + j]);
+        }
+        fprintf(file, "\n");
+    }
+    fclose(file);
 }

@@ -1,5 +1,9 @@
 // src/solver.c
 
+
+#include <sys/stat.h>
+#include <stdlib.h>
+#include <string.h>
 #include <stdio.h>
 #include <math.h>
 #include <omp.h>
@@ -155,10 +159,18 @@ void update_velocities(double u[NX][NY],
     }
 }
 
-// Função para salvar os resultados em um arquivo (não paralelizado - I/O)
-void save_results(int step, double p[NX][NY]) {
-    char filename[100];
-    sprintf(filename, "wave_%04d.dat", step);
+void save_results(const char *variant, const char *cfg, const char *param, int step, double p[NX][NY]) {
+    char folder[256];
+    sprintf(folder, "data/%s/%s/%s", variant, cfg, param);
+
+    // cria diretórios se não existirem
+    char cmd[300];
+    sprintf(cmd, "mkdir -p %s", folder);
+    system(cmd);
+
+    // monta caminho do arquivo
+    char filename[300];
+    sprintf(filename, "%s/wave_%04d.dat", folder, step);
     FILE *file = fopen(filename, "w");
 
     for (int i = 0; i < NX; i++) {
@@ -167,7 +179,5 @@ void save_results(int step, double p[NX][NY]) {
         }
         fprintf(file, "\n");
     }
-
     fclose(file);
 }
-

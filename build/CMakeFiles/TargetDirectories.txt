@@ -1,6 +1,0 @@
-/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/solver.dir
-/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/serial.dir
-/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/openmp.dir
-/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/cuda.dir
-/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/edit_cache.dir
-/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/rebuild_cache.dir
