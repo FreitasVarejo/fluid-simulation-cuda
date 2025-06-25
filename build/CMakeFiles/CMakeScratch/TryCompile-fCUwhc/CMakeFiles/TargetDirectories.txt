@@ -1,3 +1,0 @@
-/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-fCUwhc/CMakeFiles/cmTC_43412.dir
-/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-fCUwhc/CMakeFiles/edit_cache.dir
-/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-fCUwhc/CMakeFiles/rebuild_cache.dir
