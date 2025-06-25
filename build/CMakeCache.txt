@@ -267,7 +267,7 @@ OpenMP_gomp_LIBRARY:FILEPATH=/usr/lib/gcc/x86_64-redhat-linux/14/libgomp.so
 OpenMP_pthread_LIBRARY:FILEPATH=/usr/lib64/libpthread.a
 
 //Temporal blocking factor
-TB:STRING=1
+TB:STRING=2
 
 //CPU cache-blocking tile
 TILE:STRING=16

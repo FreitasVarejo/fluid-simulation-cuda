@@ -241,8 +241,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-2oj9lS"
-      binary: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-2oj9lS"
+      source: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-oYKJ1y"
+      binary: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-oYKJ1y"
     cmakeVariables:
       CMAKE_CUDA_ARCHITECTURES: "52"
       CMAKE_C_FLAGS: ""
@@ -252,13 +252,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-2oj9lS'
+        Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-oYKJ1y'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6904b/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_6904b.dir/build.make CMakeFiles/cmTC_6904b.dir/build
-        gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-2oj9lS'
-        Building C object CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_665b1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_665b1.dir/build.make CMakeFiles/cmTC_665b1.dir/build
+        gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-oYKJ1y'
+        Building C object CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -268,8 +268,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.3.1 20250523 (Red Hat 14.3.1-1) (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6904b.dir/'
-         /usr/libexec/gcc/x86_64-redhat-linux/14/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6904b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccGjJeVW.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_665b1.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_665b1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccV9dUiU.s
         GNU C17 (GCC) version 14.3.1 20250523 (Red Hat 14.3.1-1) (x86_64-redhat-linux)
         	compiled by GNU C version 14.3.1 20250523 (Red Hat 14.3.1-1), GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.24-GMP
         
@@ -283,15 +283,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 100e26a9889a175af1ac98a343c13777
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6904b.dir/'
-         as -v --64 -o CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.o /tmp/ccGjJeVW.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_665b1.dir/'
+         as -v --64 -o CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.o /tmp/ccV9dUiU.s
         GNU assembler version 2.43.1 (x86_64-redhat-linux) using BFD version version 2.43.1-5.fc41
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_6904b
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6904b.dir/link.txt --verbose=1
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.o -o cmTC_6904b
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_665b1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_665b1.dir/link.txt --verbose=1
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.o -o cmTC_665b1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper
@@ -304,13 +304,13 @@ events:
         gcc version 14.3.1 20250523 (Red Hat 14.3.1-1) (GCC) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6904b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6904b.'
-         /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEvj1IR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6904b /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_665b1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_665b1.'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1abKeh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_665b1 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
         collect2 version 14.3.1 20250523 (Red Hat 14.3.1-1)
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEvj1IR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6904b /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1abKeh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_665b1 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
         GNU ld version 2.43.1-5.fc41
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6904b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6904b.'
-        gmake[1]: Leaving directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-2oj9lS'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_665b1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_665b1.'
+        gmake[1]: Leaving directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-oYKJ1y'
         
       exitCode: 0
   -
@@ -343,13 +343,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-2oj9lS']
+        ignore line: [Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-oYKJ1y']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6904b/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_6904b.dir/build.make CMakeFiles/cmTC_6904b.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-2oj9lS']
-        ignore line: [Building C object CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_665b1/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_665b1.dir/build.make CMakeFiles/cmTC_665b1.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-oYKJ1y']
+        ignore line: [Building C object CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -359,8 +359,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.3.1 20250523 (Red Hat 14.3.1-1) (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6904b.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6904b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccGjJeVW.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_665b1.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_665b1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccV9dUiU.s]
         ignore line: [GNU C17 (GCC) version 14.3.1 20250523 (Red Hat 14.3.1-1) (x86_64-redhat-linux)]
         ignore line: [	compiled by GNU C version 14.3.1 20250523 (Red Hat 14.3.1-1)  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -374,15 +374,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 100e26a9889a175af1ac98a343c13777]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6904b.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.o /tmp/ccGjJeVW.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_665b1.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.o /tmp/ccV9dUiU.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-redhat-linux) using BFD version version 2.43.1-5.fc41]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_6904b]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6904b.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v -Wl -v CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.o -o cmTC_6904b]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_665b1]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_665b1.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v -Wl -v CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.o -o cmTC_665b1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper]
@@ -395,13 +395,13 @@ events:
         ignore line: [gcc version 14.3.1 20250523 (Red Hat 14.3.1-1) (GCC) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6904b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6904b.']
-        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEvj1IR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6904b /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_665b1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_665b1.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1abKeh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_665b1 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
           arg [/usr/libexec/gcc/x86_64-redhat-linux/14/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccEvj1IR.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc1abKeh.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -416,7 +416,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_6904b] ==> ignore
+          arg [cmTC_665b1] ==> ignore
           arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o]
@@ -426,7 +426,7 @@ events:
           arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
           arg [-L/usr/lib/gcc/x86_64-redhat-linux/14/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -441,7 +441,7 @@ events:
           arg [/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
         ignore line: [collect2 version 14.3.1 20250523 (Red Hat 14.3.1-1)]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEvj1IR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6904b /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_6904b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1abKeh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_665b1 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_665b1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
         collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
@@ -476,8 +476,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-VRdpIc"
-      binary: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-VRdpIc"
+      source: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-FPCO0g"
+      binary: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-FPCO0g"
     cmakeVariables:
       CMAKE_CUDA_ARCHITECTURES: "52"
       CMAKE_CXX_FLAGS: ""
@@ -488,13 +488,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-VRdpIc'
+        Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-FPCO0g'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9d52f/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_9d52f.dir/build.make CMakeFiles/cmTC_9d52f.dir/build
-        gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-VRdpIc'
-        Building CXX object CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2c610/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2c610.dir/build.make CMakeFiles/cmTC_2c610.dir/build
+        gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-FPCO0g'
+        Building CXX object CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -504,8 +504,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.3.1 20250523 (Red Hat 14.3.1-1) (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9d52f.dir/'
-         /usr/libexec/gcc/x86_64-redhat-linux/14/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9d52f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccnBPIDq.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2c610.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2c610.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccIzSOsD.s
         GNU C++17 (GCC) version 14.3.1 20250523 (Red Hat 14.3.1-1) (x86_64-redhat-linux)
         	compiled by GNU C version 14.3.1 20250523 (Red Hat 14.3.1-1), GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.24-GMP
         
@@ -522,15 +522,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 46b68aa2a7742135a1138febf4cf5b72
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9d52f.dir/'
-         as -v --64 -o CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccnBPIDq.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2c610.dir/'
+         as -v --64 -o CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccIzSOsD.s
         GNU assembler version 2.43.1 (x86_64-redhat-linux) using BFD version version 2.43.1-5.fc41
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_9d52f
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d52f.dir/link.txt --verbose=1
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9d52f
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_2c610
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c610.dir/link.txt --verbose=1
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2c610
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper
@@ -543,13 +543,13 @@ events:
         gcc version 14.3.1 20250523 (Red Hat 14.3.1-1) (GCC) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9d52f' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9d52f.'
-         /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccns6w2x.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9d52f /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2c610' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2c610.'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccijSDtU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2c610 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
         collect2 version 14.3.1 20250523 (Red Hat 14.3.1-1)
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccns6w2x.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9d52f /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccijSDtU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2c610 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
         GNU ld version 2.43.1-5.fc41
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9d52f' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9d52f.'
-        gmake[1]: Leaving directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-VRdpIc'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2c610' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2c610.'
+        gmake[1]: Leaving directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-FPCO0g'
         
       exitCode: 0
   -
@@ -588,13 +588,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-VRdpIc']
+        ignore line: [Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-FPCO0g']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9d52f/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_9d52f.dir/build.make CMakeFiles/cmTC_9d52f.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-VRdpIc']
-        ignore line: [Building CXX object CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2c610/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_2c610.dir/build.make CMakeFiles/cmTC_2c610.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-FPCO0g']
+        ignore line: [Building CXX object CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -604,8 +604,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.3.1 20250523 (Red Hat 14.3.1-1) (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9d52f.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9d52f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccnBPIDq.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2c610.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2c610.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccIzSOsD.s]
         ignore line: [GNU C++17 (GCC) version 14.3.1 20250523 (Red Hat 14.3.1-1) (x86_64-redhat-linux)]
         ignore line: [	compiled by GNU C version 14.3.1 20250523 (Red Hat 14.3.1-1)  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -622,15 +622,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 46b68aa2a7742135a1138febf4cf5b72]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9d52f.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccnBPIDq.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2c610.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccIzSOsD.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-redhat-linux) using BFD version version 2.43.1-5.fc41]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_9d52f]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d52f.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v -Wl -v CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9d52f]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_2c610]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c610.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v -Wl -v CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2c610]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper]
@@ -643,13 +643,13 @@ events:
         ignore line: [gcc version 14.3.1 20250523 (Red Hat 14.3.1-1) (GCC) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9d52f' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9d52f.']
-        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccns6w2x.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9d52f /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2c610' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2c610.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccijSDtU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2c610 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
           arg [/usr/libexec/gcc/x86_64-redhat-linux/14/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccns6w2x.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccijSDtU.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -664,7 +664,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_9d52f] ==> ignore
+          arg [cmTC_2c610] ==> ignore
           arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o]
@@ -674,7 +674,7 @@ events:
           arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
           arg [-L/usr/lib/gcc/x86_64-redhat-linux/14/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -685,7 +685,7 @@ events:
           arg [/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
         ignore line: [collect2 version 14.3.1 20250523 (Red Hat 14.3.1-1)]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccns6w2x.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9d52f /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_9d52f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccijSDtU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2c610 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_2c610.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
         collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
@@ -720,8 +720,8 @@ events:
     checks:
       - "Detecting CUDA compiler ABI info"
     directories:
-      source: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-7TuRYw"
-      binary: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-7TuRYw"
+      source: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-f8QhHh"
+      binary: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-f8QhHh"
     cmakeVariables:
       CMAKE_CUDA_ARCHITECTURES: "52"
       CMAKE_CUDA_FLAGS: ""
@@ -732,13 +732,13 @@ events:
       variable: "CMAKE_CUDA_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-7TuRYw'
+        Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-f8QhHh'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_665bd/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_665bd.dir/build.make CMakeFiles/cmTC_665bd.dir/build
-        gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-7TuRYw'
-        Building CUDA object CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o
-        /usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler   "--generate-code=arch=compute_52,code=[compute_52,sm_52]"   -Xcompiler=-v -MD -MT CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o -MF CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o.d -x cu -c /usr/share/cmake/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_43413/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_43413.dir/build.make CMakeFiles/cmTC_43413.dir/build
+        gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-f8QhHh'
+        Building CUDA object CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o
+        /usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler   "--generate-code=arch=compute_52,code=[compute_52,sm_52]"   -Xcompiler=-v -MD -MT CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o -MF CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o.d -x cu -c /usr/share/cmake/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o
         nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
         Using built-in specs.
         COLLECT_GCC=/usr/bin/g++-13
@@ -747,8 +747,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.1 20240611 (Red Hat 13.3.1-2) (GCC) 
-        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=12' '-D' '__CUDACC_VER_MINOR__=9' '-D' '__CUDACC_VER_BUILD__=86' '-D' '__CUDA_API_VER_MAJOR__=12' '-D' '__CUDA_API_VER_MINOR__=9' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-D' '__CUDACC_DEVICE_ATOMIC_BUILTINS__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00007b75_00000000-7_CMakeCUDACompilerABI.cpp1.ii' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/'
-         /usr/libexec/gcc/x86_64-redhat-linux/13/cc1plus -E -quiet -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include -D_GNU_SOURCE -D __CUDA_ARCH__=520 -D __CUDA_ARCH_LIST__=520 -D __NV_LEGACY_LAUNCH -D CUDA_DOUBLE_MATH_FUNCTIONS -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=12 -D __CUDACC_VER_MINOR__=9 -D __CUDACC_VER_BUILD__=86 -D __CUDA_API_VER_MAJOR__=12 -D __CUDA_API_VER_MINOR__=9 -D __NVCC_DIAG_PRAGMA_SUPPORT__=1 -D __CUDACC_DEVICE_ATOMIC_BUILTINS__=1 -include cuda_runtime.h /usr/share/cmake/Modules/CMakeCUDACompilerABI.cu -o /tmp/tmpxft_00007b75_00000000-7_CMakeCUDACompilerABI.cpp1.ii -m64 -mtune=generic -march=x86-64 -dumpdir /tmp/ -dumpbase tmpxft_00007b75_00000000-7_CMakeCUDACompilerABI.cpp1.cu -dumpbase-ext .cu
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=12' '-D' '__CUDACC_VER_MINOR__=9' '-D' '__CUDACC_VER_BUILD__=86' '-D' '__CUDA_API_VER_MAJOR__=12' '-D' '__CUDA_API_VER_MINOR__=9' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-D' '__CUDACC_DEVICE_ATOMIC_BUILTINS__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_0000b005_00000000-7_CMakeCUDACompilerABI.cpp1.ii' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/'
+         /usr/libexec/gcc/x86_64-redhat-linux/13/cc1plus -E -quiet -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include -D_GNU_SOURCE -D __CUDA_ARCH__=520 -D __CUDA_ARCH_LIST__=520 -D __NV_LEGACY_LAUNCH -D CUDA_DOUBLE_MATH_FUNCTIONS -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=12 -D __CUDACC_VER_MINOR__=9 -D __CUDACC_VER_BUILD__=86 -D __CUDA_API_VER_MAJOR__=12 -D __CUDA_API_VER_MINOR__=9 -D __NVCC_DIAG_PRAGMA_SUPPORT__=1 -D __CUDACC_DEVICE_ATOMIC_BUILTINS__=1 -include cuda_runtime.h /usr/share/cmake/Modules/CMakeCUDACompilerABI.cu -o /tmp/tmpxft_0000b005_00000000-7_CMakeCUDACompilerABI.cpp1.ii -m64 -mtune=generic -march=x86-64 -dumpdir /tmp/ -dumpbase tmpxft_0000b005_00000000-7_CMakeCUDACompilerABI.cpp1.cu -dumpbase-ext .cu
         ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/13/include-fixed"
         ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/13/../../../../x86_64-redhat-linux/include"
         #include "..." search starts here:
@@ -763,7 +763,7 @@ events:
         End of search list.
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/13/:/usr/libexec/gcc/x86_64-redhat-linux/13/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/13/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/13/:/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=12' '-D' '__CUDACC_VER_MINOR__=9' '-D' '__CUDACC_VER_BUILD__=86' '-D' '__CUDA_API_VER_MAJOR__=12' '-D' '__CUDA_API_VER_MINOR__=9' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-D' '__CUDACC_DEVICE_ATOMIC_BUILTINS__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00007b75_00000000-7_CMakeCUDACompilerABI.cpp1.ii' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/tmpxft_00007b75_00000000-7_CMakeCUDACompilerABI.cpp1.'
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=12' '-D' '__CUDACC_VER_MINOR__=9' '-D' '__CUDACC_VER_BUILD__=86' '-D' '__CUDA_API_VER_MAJOR__=12' '-D' '__CUDA_API_VER_MINOR__=9' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-D' '__CUDACC_DEVICE_ATOMIC_BUILTINS__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_0000b005_00000000-7_CMakeCUDACompilerABI.cpp1.ii' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/tmpxft_0000b005_00000000-7_CMakeCUDACompilerABI.cpp1.'
         Using built-in specs.
         COLLECT_GCC=/usr/bin/g++-13
         Target: x86_64-redhat-linux
@@ -771,8 +771,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.1 20240611 (Red Hat 13.3.1-2) (GCC) 
-        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=12' '-D' '__CUDACC_VER_MINOR__=9' '-D' '__CUDACC_VER_BUILD__=86' '-D' '__CUDA_API_VER_MAJOR__=12' '-D' '__CUDA_API_VER_MINOR__=9' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-D' '__CUDACC_DEVICE_ATOMIC_BUILTINS__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00007b75_00000000-5_CMakeCUDACompilerABI.cpp4.ii' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/'
-         /usr/libexec/gcc/x86_64-redhat-linux/13/cc1plus -E -quiet -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include -D_GNU_SOURCE -D __CUDA_ARCH_LIST__=520 -D __NV_LEGACY_LAUNCH -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=12 -D __CUDACC_VER_MINOR__=9 -D __CUDACC_VER_BUILD__=86 -D __CUDA_API_VER_MAJOR__=12 -D __CUDA_API_VER_MINOR__=9 -D __NVCC_DIAG_PRAGMA_SUPPORT__=1 -D __CUDACC_DEVICE_ATOMIC_BUILTINS__=1 -include cuda_runtime.h /usr/share/cmake/Modules/CMakeCUDACompilerABI.cu -o /tmp/tmpxft_00007b75_00000000-5_CMakeCUDACompilerABI.cpp4.ii -m64 -mtune=generic -march=x86-64 -dumpdir /tmp/ -dumpbase tmpxft_00007b75_00000000-5_CMakeCUDACompilerABI.cpp4.cu -dumpbase-ext .cu
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=12' '-D' '__CUDACC_VER_MINOR__=9' '-D' '__CUDACC_VER_BUILD__=86' '-D' '__CUDA_API_VER_MAJOR__=12' '-D' '__CUDA_API_VER_MINOR__=9' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-D' '__CUDACC_DEVICE_ATOMIC_BUILTINS__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_0000b005_00000000-5_CMakeCUDACompilerABI.cpp4.ii' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/'
+         /usr/libexec/gcc/x86_64-redhat-linux/13/cc1plus -E -quiet -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include -D_GNU_SOURCE -D __CUDA_ARCH_LIST__=520 -D __NV_LEGACY_LAUNCH -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=12 -D __CUDACC_VER_MINOR__=9 -D __CUDACC_VER_BUILD__=86 -D __CUDA_API_VER_MAJOR__=12 -D __CUDA_API_VER_MINOR__=9 -D __NVCC_DIAG_PRAGMA_SUPPORT__=1 -D __CUDACC_DEVICE_ATOMIC_BUILTINS__=1 -include cuda_runtime.h /usr/share/cmake/Modules/CMakeCUDACompilerABI.cu -o /tmp/tmpxft_0000b005_00000000-5_CMakeCUDACompilerABI.cpp4.ii -m64 -mtune=generic -march=x86-64 -dumpdir /tmp/ -dumpbase tmpxft_0000b005_00000000-5_CMakeCUDACompilerABI.cpp4.cu -dumpbase-ext .cu
         ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/13/include-fixed"
         ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/13/../../../../x86_64-redhat-linux/include"
         #include "..." search starts here:
@@ -787,7 +787,7 @@ events:
         End of search list.
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/13/:/usr/libexec/gcc/x86_64-redhat-linux/13/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/13/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/13/:/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=12' '-D' '__CUDACC_VER_MINOR__=9' '-D' '__CUDACC_VER_BUILD__=86' '-D' '__CUDA_API_VER_MAJOR__=12' '-D' '__CUDA_API_VER_MINOR__=9' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-D' '__CUDACC_DEVICE_ATOMIC_BUILTINS__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00007b75_00000000-5_CMakeCUDACompilerABI.cpp4.ii' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/tmpxft_00007b75_00000000-5_CMakeCUDACompilerABI.cpp4.'
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=12' '-D' '__CUDACC_VER_MINOR__=9' '-D' '__CUDACC_VER_BUILD__=86' '-D' '__CUDA_API_VER_MAJOR__=12' '-D' '__CUDA_API_VER_MINOR__=9' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-D' '__CUDACC_DEVICE_ATOMIC_BUILTINS__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_0000b005_00000000-5_CMakeCUDACompilerABI.cpp4.ii' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/tmpxft_0000b005_00000000-5_CMakeCUDACompilerABI.cpp4.'
         Using built-in specs.
         COLLECT_GCC=/usr/bin/g++-13
         Target: x86_64-redhat-linux
@@ -795,8 +795,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.1 20240611 (Red Hat 13.3.1-2) (GCC) 
-        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-Wno-psabi' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-m64' '-o' 'CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_665bd.dir/'
-         /usr/libexec/gcc/x86_64-redhat-linux/13/cc1plus -quiet -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include -D_GNU_SOURCE -D __CUDA_ARCH__=520 -D __CUDA_ARCH_LIST__=520 -D __NV_LEGACY_LAUNCH -D CUDA_DOUBLE_MATH_FUNCTIONS /tmp/tmpxft_00007b75_00000000-6_CMakeCUDACompilerABI.cudafe1.cpp -quiet -dumpdir CMakeFiles/cmTC_665bd.dir/ -dumpbase CMakeCUDACompilerABI.cu.cpp -dumpbase-ext .cpp -m64 -mtune=generic -march=x86-64 -Wno-psabi -version -o /tmp/ccqDO3OP.s
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-Wno-psabi' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-m64' '-o' 'CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_43413.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/13/cc1plus -quiet -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include -D_GNU_SOURCE -D __CUDA_ARCH__=520 -D __CUDA_ARCH_LIST__=520 -D __NV_LEGACY_LAUNCH -D CUDA_DOUBLE_MATH_FUNCTIONS /tmp/tmpxft_0000b005_00000000-6_CMakeCUDACompilerABI.cudafe1.cpp -quiet -dumpdir CMakeFiles/cmTC_43413.dir/ -dumpbase CMakeCUDACompilerABI.cu.cpp -dumpbase-ext .cpp -m64 -mtune=generic -march=x86-64 -Wno-psabi -version -o /tmp/ccU0CFSK.s
         GNU C++17 (GCC) version 13.3.1 20240611 (Red Hat 13.3.1-2) (x86_64-redhat-linux)
         	compiled by GNU C version 13.3.1 20240611 (Red Hat 13.3.1-2), GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -813,15 +813,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: c201ad682ea00481600f12471c5d0113
-        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-Wno-psabi' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-m64' '-o' 'CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_665bd.dir/'
-         as -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include --64 -o CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o /tmp/ccqDO3OP.s
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-Wno-psabi' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-m64' '-o' 'CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_43413.dir/'
+         as -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include --64 -o CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o /tmp/ccU0CFSK.s
         GNU assembler version 2.43.1 (x86_64-redhat-linux) using BFD version version 2.43.1-5.fc41
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/13/:/usr/libexec/gcc/x86_64-redhat-linux/13/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/13/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/13/:/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-Wno-psabi' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-m64' '-o' 'CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.'
-        Linking CUDA executable cmTC_665bd
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_665bd.dir/link.txt --verbose=1
-        /usr/bin/g++-13  -v -Wl,-v CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o -o cmTC_665bd  -lcudadevrt -lcudart_static -lrt -lpthread -ldl  -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda/targets/x86_64-linux/lib"
+        COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-Wno-psabi' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-m64' '-o' 'CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.'
+        Linking CUDA executable cmTC_43413
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43413.dir/link.txt --verbose=1
+        /usr/bin/g++-13  -v -Wl,-v CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o -o cmTC_43413  -lcudadevrt -lcudart_static -lrt -lpthread -ldl  -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda/targets/x86_64-linux/lib"
         Using built-in specs.
         COLLECT_GCC=/usr/bin/g++-13
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/13/lto-wrapper
@@ -832,13 +832,13 @@ events:
         gcc version 13.3.1 20240611 (Red Hat 13.3.1-2) (GCC) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/13/:/usr/libexec/gcc/x86_64-redhat-linux/13/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/13/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/13/:/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_665bd' '-L/usr/local/cuda/targets/x86_64-linux/lib/stubs' '-L/usr/local/cuda/targets/x86_64-linux/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_665bd.'
-         /usr/libexec/gcc/x86_64-redhat-linux/13/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGxY7Ec.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_665bd /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o -L/usr/local/cuda/targets/x86_64-linux/lib/stubs -L/usr/local/cuda/targets/x86_64-linux/lib -L/usr/lib/gcc/x86_64-redhat-linux/13 -L/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/13/../../.. -v CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/13/crtend.o /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_43413' '-L/usr/local/cuda/targets/x86_64-linux/lib/stubs' '-L/usr/local/cuda/targets/x86_64-linux/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_43413.'
+         /usr/libexec/gcc/x86_64-redhat-linux/13/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc14UJJo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_43413 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o -L/usr/local/cuda/targets/x86_64-linux/lib/stubs -L/usr/local/cuda/targets/x86_64-linux/lib -L/usr/lib/gcc/x86_64-redhat-linux/13 -L/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/13/../../.. -v CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/13/crtend.o /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o
         collect2 version 13.3.1 20240611 (Red Hat 13.3.1-2)
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGxY7Ec.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_665bd /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o -L/usr/local/cuda/targets/x86_64-linux/lib/stubs -L/usr/local/cuda/targets/x86_64-linux/lib -L/usr/lib/gcc/x86_64-redhat-linux/13 -L/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/13/../../.. -v CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/13/crtend.o /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc14UJJo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_43413 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o -L/usr/local/cuda/targets/x86_64-linux/lib/stubs -L/usr/local/cuda/targets/x86_64-linux/lib -L/usr/lib/gcc/x86_64-redhat-linux/13 -L/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/13/../../.. -v CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/13/crtend.o /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o
         GNU ld version 2.43.1-5.fc41
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_665bd' '-L/usr/local/cuda/targets/x86_64-linux/lib/stubs' '-L/usr/local/cuda/targets/x86_64-linux/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_665bd.'
-        gmake[1]: Leaving directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-7TuRYw'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_43413' '-L/usr/local/cuda/targets/x86_64-linux/lib/stubs' '-L/usr/local/cuda/targets/x86_64-linux/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_43413.'
+        gmake[1]: Leaving directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-f8QhHh'
         
       exitCode: 0
   -
@@ -879,13 +879,13 @@ events:
       Parsed CUDA implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-7TuRYw']
+        ignore line: [Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-f8QhHh']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_665bd/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_665bd.dir/build.make CMakeFiles/cmTC_665bd.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-7TuRYw']
-        ignore line: [Building CUDA object CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o]
-        ignore line: [/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler   "--generate-code=arch=compute_52 code=[compute_52 sm_52]"   -Xcompiler=-v -MD -MT CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o -MF CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o.d -x cu -c /usr/share/cmake/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_43413/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_43413.dir/build.make CMakeFiles/cmTC_43413.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-f8QhHh']
+        ignore line: [Building CUDA object CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o]
+        ignore line: [/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler   "--generate-code=arch=compute_52 code=[compute_52 sm_52]"   -Xcompiler=-v -MD -MT CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o -MF CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o.d -x cu -c /usr/share/cmake/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o]
         ignore line: [nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/g++-13]
@@ -894,8 +894,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.1 20240611 (Red Hat 13.3.1-2) (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=12' '-D' '__CUDACC_VER_MINOR__=9' '-D' '__CUDACC_VER_BUILD__=86' '-D' '__CUDA_API_VER_MAJOR__=12' '-D' '__CUDA_API_VER_MINOR__=9' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-D' '__CUDACC_DEVICE_ATOMIC_BUILTINS__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00007b75_00000000-7_CMakeCUDACompilerABI.cpp1.ii' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/']
-        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/13/cc1plus -E -quiet -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include -D_GNU_SOURCE -D __CUDA_ARCH__=520 -D __CUDA_ARCH_LIST__=520 -D __NV_LEGACY_LAUNCH -D CUDA_DOUBLE_MATH_FUNCTIONS -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=12 -D __CUDACC_VER_MINOR__=9 -D __CUDACC_VER_BUILD__=86 -D __CUDA_API_VER_MAJOR__=12 -D __CUDA_API_VER_MINOR__=9 -D __NVCC_DIAG_PRAGMA_SUPPORT__=1 -D __CUDACC_DEVICE_ATOMIC_BUILTINS__=1 -include cuda_runtime.h /usr/share/cmake/Modules/CMakeCUDACompilerABI.cu -o /tmp/tmpxft_00007b75_00000000-7_CMakeCUDACompilerABI.cpp1.ii -m64 -mtune=generic -march=x86-64 -dumpdir /tmp/ -dumpbase tmpxft_00007b75_00000000-7_CMakeCUDACompilerABI.cpp1.cu -dumpbase-ext .cu]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=12' '-D' '__CUDACC_VER_MINOR__=9' '-D' '__CUDACC_VER_BUILD__=86' '-D' '__CUDA_API_VER_MAJOR__=12' '-D' '__CUDA_API_VER_MINOR__=9' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-D' '__CUDACC_DEVICE_ATOMIC_BUILTINS__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_0000b005_00000000-7_CMakeCUDACompilerABI.cpp1.ii' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/13/cc1plus -E -quiet -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include -D_GNU_SOURCE -D __CUDA_ARCH__=520 -D __CUDA_ARCH_LIST__=520 -D __NV_LEGACY_LAUNCH -D CUDA_DOUBLE_MATH_FUNCTIONS -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=12 -D __CUDACC_VER_MINOR__=9 -D __CUDACC_VER_BUILD__=86 -D __CUDA_API_VER_MAJOR__=12 -D __CUDA_API_VER_MINOR__=9 -D __NVCC_DIAG_PRAGMA_SUPPORT__=1 -D __CUDACC_DEVICE_ATOMIC_BUILTINS__=1 -include cuda_runtime.h /usr/share/cmake/Modules/CMakeCUDACompilerABI.cu -o /tmp/tmpxft_0000b005_00000000-7_CMakeCUDACompilerABI.cpp1.ii -m64 -mtune=generic -march=x86-64 -dumpdir /tmp/ -dumpbase tmpxft_0000b005_00000000-7_CMakeCUDACompilerABI.cpp1.cu -dumpbase-ext .cu]
         ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/13/include-fixed"]
         ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/13/../../../../x86_64-redhat-linux/include"]
         ignore line: [#include "..." search starts here:]
@@ -910,7 +910,7 @@ events:
         ignore line: [End of search list.]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/13/:/usr/libexec/gcc/x86_64-redhat-linux/13/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/13/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/13/:/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=12' '-D' '__CUDACC_VER_MINOR__=9' '-D' '__CUDACC_VER_BUILD__=86' '-D' '__CUDA_API_VER_MAJOR__=12' '-D' '__CUDA_API_VER_MINOR__=9' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-D' '__CUDACC_DEVICE_ATOMIC_BUILTINS__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00007b75_00000000-7_CMakeCUDACompilerABI.cpp1.ii' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/tmpxft_00007b75_00000000-7_CMakeCUDACompilerABI.cpp1.']
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=12' '-D' '__CUDACC_VER_MINOR__=9' '-D' '__CUDACC_VER_BUILD__=86' '-D' '__CUDA_API_VER_MAJOR__=12' '-D' '__CUDA_API_VER_MINOR__=9' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-D' '__CUDACC_DEVICE_ATOMIC_BUILTINS__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_0000b005_00000000-7_CMakeCUDACompilerABI.cpp1.ii' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/tmpxft_0000b005_00000000-7_CMakeCUDACompilerABI.cpp1.']
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/g++-13]
         ignore line: [Target: x86_64-redhat-linux]
@@ -918,8 +918,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.1 20240611 (Red Hat 13.3.1-2) (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=12' '-D' '__CUDACC_VER_MINOR__=9' '-D' '__CUDACC_VER_BUILD__=86' '-D' '__CUDA_API_VER_MAJOR__=12' '-D' '__CUDA_API_VER_MINOR__=9' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-D' '__CUDACC_DEVICE_ATOMIC_BUILTINS__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00007b75_00000000-5_CMakeCUDACompilerABI.cpp4.ii' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/']
-        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/13/cc1plus -E -quiet -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include -D_GNU_SOURCE -D __CUDA_ARCH_LIST__=520 -D __NV_LEGACY_LAUNCH -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=12 -D __CUDACC_VER_MINOR__=9 -D __CUDACC_VER_BUILD__=86 -D __CUDA_API_VER_MAJOR__=12 -D __CUDA_API_VER_MINOR__=9 -D __NVCC_DIAG_PRAGMA_SUPPORT__=1 -D __CUDACC_DEVICE_ATOMIC_BUILTINS__=1 -include cuda_runtime.h /usr/share/cmake/Modules/CMakeCUDACompilerABI.cu -o /tmp/tmpxft_00007b75_00000000-5_CMakeCUDACompilerABI.cpp4.ii -m64 -mtune=generic -march=x86-64 -dumpdir /tmp/ -dumpbase tmpxft_00007b75_00000000-5_CMakeCUDACompilerABI.cpp4.cu -dumpbase-ext .cu]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=12' '-D' '__CUDACC_VER_MINOR__=9' '-D' '__CUDACC_VER_BUILD__=86' '-D' '__CUDA_API_VER_MAJOR__=12' '-D' '__CUDA_API_VER_MINOR__=9' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-D' '__CUDACC_DEVICE_ATOMIC_BUILTINS__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_0000b005_00000000-5_CMakeCUDACompilerABI.cpp4.ii' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/13/cc1plus -E -quiet -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include -D_GNU_SOURCE -D __CUDA_ARCH_LIST__=520 -D __NV_LEGACY_LAUNCH -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=12 -D __CUDACC_VER_MINOR__=9 -D __CUDACC_VER_BUILD__=86 -D __CUDA_API_VER_MAJOR__=12 -D __CUDA_API_VER_MINOR__=9 -D __NVCC_DIAG_PRAGMA_SUPPORT__=1 -D __CUDACC_DEVICE_ATOMIC_BUILTINS__=1 -include cuda_runtime.h /usr/share/cmake/Modules/CMakeCUDACompilerABI.cu -o /tmp/tmpxft_0000b005_00000000-5_CMakeCUDACompilerABI.cpp4.ii -m64 -mtune=generic -march=x86-64 -dumpdir /tmp/ -dumpbase tmpxft_0000b005_00000000-5_CMakeCUDACompilerABI.cpp4.cu -dumpbase-ext .cu]
         ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/13/include-fixed"]
         ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/13/../../../../x86_64-redhat-linux/include"]
         ignore line: [#include "..." search starts here:]
@@ -934,7 +934,7 @@ events:
         ignore line: [End of search list.]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/13/:/usr/libexec/gcc/x86_64-redhat-linux/13/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/13/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/13/:/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=12' '-D' '__CUDACC_VER_MINOR__=9' '-D' '__CUDACC_VER_BUILD__=86' '-D' '__CUDA_API_VER_MAJOR__=12' '-D' '__CUDA_API_VER_MINOR__=9' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-D' '__CUDACC_DEVICE_ATOMIC_BUILTINS__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00007b75_00000000-5_CMakeCUDACompilerABI.cpp4.ii' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/tmpxft_00007b75_00000000-5_CMakeCUDACompilerABI.cpp4.']
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=12' '-D' '__CUDACC_VER_MINOR__=9' '-D' '__CUDACC_VER_BUILD__=86' '-D' '__CUDA_API_VER_MAJOR__=12' '-D' '__CUDA_API_VER_MINOR__=9' '-D' '__NVCC_DIAG_PRAGMA_SUPPORT__=1' '-D' '__CUDACC_DEVICE_ATOMIC_BUILTINS__=1' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_0000b005_00000000-5_CMakeCUDACompilerABI.cpp4.ii' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' '/tmp/tmpxft_0000b005_00000000-5_CMakeCUDACompilerABI.cpp4.']
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/g++-13]
         ignore line: [Target: x86_64-redhat-linux]
@@ -942,8 +942,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.1 20240611 (Red Hat 13.3.1-2) (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-Wno-psabi' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-m64' '-o' 'CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_665bd.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/13/cc1plus -quiet -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include -D_GNU_SOURCE -D __CUDA_ARCH__=520 -D __CUDA_ARCH_LIST__=520 -D __NV_LEGACY_LAUNCH -D CUDA_DOUBLE_MATH_FUNCTIONS /tmp/tmpxft_00007b75_00000000-6_CMakeCUDACompilerABI.cudafe1.cpp -quiet -dumpdir CMakeFiles/cmTC_665bd.dir/ -dumpbase CMakeCUDACompilerABI.cu.cpp -dumpbase-ext .cpp -m64 -mtune=generic -march=x86-64 -Wno-psabi -version -o /tmp/ccqDO3OP.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-Wno-psabi' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-m64' '-o' 'CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_43413.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/13/cc1plus -quiet -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include -D_GNU_SOURCE -D __CUDA_ARCH__=520 -D __CUDA_ARCH_LIST__=520 -D __NV_LEGACY_LAUNCH -D CUDA_DOUBLE_MATH_FUNCTIONS /tmp/tmpxft_0000b005_00000000-6_CMakeCUDACompilerABI.cudafe1.cpp -quiet -dumpdir CMakeFiles/cmTC_43413.dir/ -dumpbase CMakeCUDACompilerABI.cu.cpp -dumpbase-ext .cpp -m64 -mtune=generic -march=x86-64 -Wno-psabi -version -o /tmp/ccU0CFSK.s]
         ignore line: [GNU C++17 (GCC) version 13.3.1 20240611 (Red Hat 13.3.1-2) (x86_64-redhat-linux)]
         ignore line: [	compiled by GNU C version 13.3.1 20240611 (Red Hat 13.3.1-2)  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -960,15 +960,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: c201ad682ea00481600f12471c5d0113]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-Wno-psabi' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-m64' '-o' 'CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_665bd.dir/']
-        ignore line: [ as -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include --64 -o CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o /tmp/ccqDO3OP.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-Wno-psabi' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-m64' '-o' 'CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_43413.dir/']
+        ignore line: [ as -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include --64 -o CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o /tmp/ccU0CFSK.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-redhat-linux) using BFD version version 2.43.1-5.fc41]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/13/:/usr/libexec/gcc/x86_64-redhat-linux/13/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/13/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/13/:/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-Wno-psabi' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-m64' '-o' 'CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.']
-        ignore line: [Linking CUDA executable cmTC_665bd]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_665bd.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/g++-13  -v -Wl,-v CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o -o cmTC_665bd  -lcudadevrt -lcudart_static -lrt -lpthread -ldl  -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda/targets/x86_64-linux/lib"]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-D' '__CUDA_ARCH_LIST__=520' '-D' '__NV_LEGACY_LAUNCH' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-Wno-psabi' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-m64' '-o' 'CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.']
+        ignore line: [Linking CUDA executable cmTC_43413]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43413.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/g++-13  -v -Wl,-v CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o -o cmTC_43413  -lcudadevrt -lcudart_static -lrt -lpthread -ldl  -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda/targets/x86_64-linux/lib"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/g++-13]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/13/lto-wrapper]
@@ -979,13 +979,13 @@ events:
         ignore line: [gcc version 13.3.1 20240611 (Red Hat 13.3.1-2) (GCC) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/13/:/usr/libexec/gcc/x86_64-redhat-linux/13/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/13/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/13/:/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_665bd' '-L/usr/local/cuda/targets/x86_64-linux/lib/stubs' '-L/usr/local/cuda/targets/x86_64-linux/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_665bd.']
-        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/13/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGxY7Ec.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_665bd /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o -L/usr/local/cuda/targets/x86_64-linux/lib/stubs -L/usr/local/cuda/targets/x86_64-linux/lib -L/usr/lib/gcc/x86_64-redhat-linux/13 -L/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/13/../../.. -v CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/13/crtend.o /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_43413' '-L/usr/local/cuda/targets/x86_64-linux/lib/stubs' '-L/usr/local/cuda/targets/x86_64-linux/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_43413.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/13/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc14UJJo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_43413 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o -L/usr/local/cuda/targets/x86_64-linux/lib/stubs -L/usr/local/cuda/targets/x86_64-linux/lib -L/usr/lib/gcc/x86_64-redhat-linux/13 -L/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/13/../../.. -v CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/13/crtend.o /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o]
           arg [/usr/libexec/gcc/x86_64-redhat-linux/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-redhat-linux/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccGxY7Ec.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc14UJJo.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1000,7 +1000,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_665bd] ==> ignore
+          arg [cmTC_43413] ==> ignore
           arg [/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o]
@@ -1012,7 +1012,7 @@ events:
           arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
           arg [-L/usr/lib/gcc/x86_64-redhat-linux/13/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/13/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o] ==> ignore
+          arg [CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o] ==> ignore
           arg [-lcudadevrt] ==> lib [cudadevrt]
           arg [-lcudart_static] ==> lib [cudart_static]
           arg [-lrt] ==> lib [rt]
@@ -1028,7 +1028,7 @@ events:
           arg [/usr/lib/gcc/x86_64-redhat-linux/13/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/13/crtend.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o]
         ignore line: [collect2 version 13.3.1 20240611 (Red Hat 13.3.1-2)]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGxY7Ec.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_665bd /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o -L/usr/local/cuda/targets/x86_64-linux/lib/stubs -L/usr/local/cuda/targets/x86_64-linux/lib -L/usr/lib/gcc/x86_64-redhat-linux/13 -L/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/13/../../.. -v CMakeFiles/cmTC_665bd.dir/CMakeCUDACompilerABI.cu.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/13/crtend.o /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc14UJJo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_43413 /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/13/crtbegin.o -L/usr/local/cuda/targets/x86_64-linux/lib/stubs -L/usr/local/cuda/targets/x86_64-linux/lib -L/usr/lib/gcc/x86_64-redhat-linux/13 -L/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/13/../../.. -v CMakeFiles/cmTC_43413.dir/CMakeCUDACompilerABI.cu.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/13/crtend.o /usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crtn.o]
         linker tool for 'CUDA': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
         collapse obj [/usr/lib/gcc/x86_64-redhat-linux/13/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
@@ -1064,8 +1064,8 @@ events:
       - "CMakeLists.txt:30 (find_package)"
     description: "Detecting C OpenMP compiler info"
     directories:
-      source: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-qmUFbC"
-      binary: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-qmUFbC"
+      source: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-cK8Yml"
+      binary: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-cK8Yml"
     cmakeVariables:
       CMAKE_CUDA_ARCHITECTURES: "52"
       CMAKE_C_FLAGS: "   -O3 -march=native -ffast-math -Wall"
@@ -1075,13 +1075,13 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-qmUFbC'
+        Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-cK8Yml'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6ef58/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_6ef58.dir/build.make CMakeFiles/cmTC_6ef58.dir/build
-        gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-qmUFbC'
-        Building C object CMakeFiles/cmTC_6ef58.dir/OpenMPTryFlag.c.o
-        /usr/bin/cc   -O3 -march=native -ffast-math -Wall -fopenmp -v -std=gnu11 -o CMakeFiles/cmTC_6ef58.dir/OpenMPTryFlag.c.o -c /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-qmUFbC/OpenMPTryFlag.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ac099/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ac099.dir/build.make CMakeFiles/cmTC_ac099.dir/build
+        gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-cK8Yml'
+        Building C object CMakeFiles/cmTC_ac099.dir/OpenMPTryFlag.c.o
+        /usr/bin/cc   -O3 -march=native -ffast-math -Wall -fopenmp -v -std=gnu11 -o CMakeFiles/cmTC_ac099.dir/OpenMPTryFlag.c.o -c /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-cK8Yml/OpenMPTryFlag.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -1091,8 +1091,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.3.1 20250523 (Red Hat 14.3.1-1) (GCC) 
-        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_6ef58.dir/OpenMPTryFlag.c.o' '-c' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6ef58.dir/'
-         /usr/libexec/gcc/x86_64-redhat-linux/14/cc1 -quiet -v -D_REENTRANT /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-qmUFbC/OpenMPTryFlag.c -march=alderlake -mmmx -mpopcnt -msse -msse2 -msse3 -mssse3 -msse4.1 -msse4.2 -mavx -mavx2 -mno-sse4a -mno-fma4 -mno-xop -mfma -mno-avx512f -mbmi -mbmi2 -maes -mpclmul -mno-avx512vl -mno-avx512bw -mno-avx512dq -mno-avx512cd -mno-avx512vbmi -mno-avx512ifma -mno-avx512vpopcntdq -mno-avx512vbmi2 -mgfni -mvpclmulqdq -mno-avx512vnni -mno-avx512bitalg -mno-avx512bf16 -mno-avx512vp2intersect -mno-3dnow -madx -mabm -mno-cldemote -mclflushopt -mclwb -mno-clzero -mcx16 -mno-enqcmd -mf16c -mfsgsbase -mfxsr -mno-hle -msahf -mno-lwp -mlzcnt -mmovbe -mmovdir64b -mmovdiri -mno-mwaitx -mno-pconfig -mpku -mprfchw -mptwrite -mrdpid -mrdrnd -mrdseed -mno-rtm -mserialize -mno-sgx -msha -mshstk -mno-tbm -mno-tsxldtrk -mvaes -mwaitpkg -mno-wbnoinvd -mxsave -mxsavec -mxsaveopt -mxsaves -mno-amx-tile -mno-amx-int8 -mno-amx-bf16 -mno-uintr -mhreset -mno-kl -mno-widekl -mavxvnni -mno-avx512fp16 -mno-avxifma -mno-avxvnniint8 -mno-avxneconvert -mno-cmpccxadd -mno-amx-fp16 -mno-prefetchi -mno-raoint -mno-amx-complex -mno-avxvnniint16 -mno-sm3 -mno-sha512 -mno-sm4 -mno-apxf -mno-usermsr --param l1-cache-size=32 --param l1-cache-line-size=64 --param l2-cache-size=24576 -mtune=alderlake -quiet -dumpdir CMakeFiles/cmTC_6ef58.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -O3 -Wall -std=gnu11 -version -ffast-math -fopenmp -o /tmp/ccSKwD1M.s
+        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_ac099.dir/OpenMPTryFlag.c.o' '-c' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ac099.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/cc1 -quiet -v -D_REENTRANT /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-cK8Yml/OpenMPTryFlag.c -march=alderlake -mmmx -mpopcnt -msse -msse2 -msse3 -mssse3 -msse4.1 -msse4.2 -mavx -mavx2 -mno-sse4a -mno-fma4 -mno-xop -mfma -mno-avx512f -mbmi -mbmi2 -maes -mpclmul -mno-avx512vl -mno-avx512bw -mno-avx512dq -mno-avx512cd -mno-avx512vbmi -mno-avx512ifma -mno-avx512vpopcntdq -mno-avx512vbmi2 -mgfni -mvpclmulqdq -mno-avx512vnni -mno-avx512bitalg -mno-avx512bf16 -mno-avx512vp2intersect -mno-3dnow -madx -mabm -mno-cldemote -mclflushopt -mclwb -mno-clzero -mcx16 -mno-enqcmd -mf16c -mfsgsbase -mfxsr -mno-hle -msahf -mno-lwp -mlzcnt -mmovbe -mmovdir64b -mmovdiri -mno-mwaitx -mno-pconfig -mpku -mprfchw -mptwrite -mrdpid -mrdrnd -mrdseed -mno-rtm -mserialize -mno-sgx -msha -mshstk -mno-tbm -mno-tsxldtrk -mvaes -mwaitpkg -mno-wbnoinvd -mxsave -mxsavec -mxsaveopt -mxsaves -mno-amx-tile -mno-amx-int8 -mno-amx-bf16 -mno-uintr -mhreset -mno-kl -mno-widekl -mavxvnni -mno-avx512fp16 -mno-avxifma -mno-avxvnniint8 -mno-avxneconvert -mno-cmpccxadd -mno-amx-fp16 -mno-prefetchi -mno-raoint -mno-amx-complex -mno-avxvnniint16 -mno-sm3 -mno-sha512 -mno-sm4 -mno-apxf -mno-usermsr --param l1-cache-size=48 --param l1-cache-line-size=64 --param l2-cache-size=24576 -mtune=alderlake -quiet -dumpdir CMakeFiles/cmTC_ac099.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -O3 -Wall -std=gnu11 -version -ffast-math -fopenmp -o /tmp/cc7obzf4.s
         GNU C11 (GCC) version 14.3.1 20250523 (Red Hat 14.3.1-1) (x86_64-redhat-linux)
         	compiled by GNU C version 14.3.1 20250523 (Red Hat 14.3.1-1), GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.24-GMP
         
@@ -1106,15 +1106,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 100e26a9889a175af1ac98a343c13777
-        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_6ef58.dir/OpenMPTryFlag.c.o' '-c' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6ef58.dir/'
-         as -v --64 -o CMakeFiles/cmTC_6ef58.dir/OpenMPTryFlag.c.o /tmp/ccSKwD1M.s
+        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_ac099.dir/OpenMPTryFlag.c.o' '-c' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ac099.dir/'
+         as -v --64 -o CMakeFiles/cmTC_ac099.dir/OpenMPTryFlag.c.o /tmp/cc7obzf4.s
         GNU assembler version 2.43.1 (x86_64-redhat-linux) using BFD version version 2.43.1-5.fc41
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_6ef58.dir/OpenMPTryFlag.c.o' '-c' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6ef58.dir/OpenMPTryFlag.c.'
-        Linking C executable cmTC_6ef58
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ef58.dir/link.txt --verbose=1
-        /usr/bin/cc    -O3 -march=native -ffast-math -Wall -fopenmp -v CMakeFiles/cmTC_6ef58.dir/OpenMPTryFlag.c.o -o cmTC_6ef58  -v
+        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_ac099.dir/OpenMPTryFlag.c.o' '-c' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ac099.dir/OpenMPTryFlag.c.'
+        Linking C executable cmTC_ac099
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac099.dir/link.txt --verbose=1
+        /usr/bin/cc    -O3 -march=native -ffast-math -Wall -fopenmp -v CMakeFiles/cmTC_ac099.dir/OpenMPTryFlag.c.o -o cmTC_ac099  -v
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper
@@ -1128,10 +1128,10 @@ events:
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
         Reading specs from /usr/lib/gcc/x86_64-redhat-linux/14/libgomp.spec
-        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'cmTC_6ef58' '-v' '-pthread' '-dumpdir' 'cmTC_6ef58.'
-         /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjkkeCS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6ef58 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o /usr/lib/gcc/x86_64-redhat-linux/14/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. CMakeFiles/cmTC_6ef58.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtfastmath.o /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o /usr/lib/gcc/x86_64-redhat-linux/14/crtoffloadend.o
-        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'cmTC_6ef58' '-v' '-pthread' '-dumpdir' 'cmTC_6ef58.'
-        gmake[1]: Leaving directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-qmUFbC'
+        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'cmTC_ac099' '-v' '-pthread' '-dumpdir' 'cmTC_ac099.'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cceImS4V.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ac099 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o /usr/lib/gcc/x86_64-redhat-linux/14/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. CMakeFiles/cmTC_ac099.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtfastmath.o /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o /usr/lib/gcc/x86_64-redhat-linux/14/crtoffloadend.o
+        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'cmTC_ac099' '-v' '-pthread' '-dumpdir' 'cmTC_ac099.'
+        gmake[1]: Leaving directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-cK8Yml'
         
       exitCode: 0
   -
@@ -1143,13 +1143,13 @@ events:
     message: |
       Parsed C OpenMP implicit link information from above output:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-qmUFbC']
+        ignore line: [Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-cK8Yml']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6ef58/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_6ef58.dir/build.make CMakeFiles/cmTC_6ef58.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-qmUFbC']
-        ignore line: [Building C object CMakeFiles/cmTC_6ef58.dir/OpenMPTryFlag.c.o]
-        ignore line: [/usr/bin/cc   -O3 -march=native -ffast-math -Wall -fopenmp -v -std=gnu11 -o CMakeFiles/cmTC_6ef58.dir/OpenMPTryFlag.c.o -c /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-qmUFbC/OpenMPTryFlag.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ac099/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_ac099.dir/build.make CMakeFiles/cmTC_ac099.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-cK8Yml']
+        ignore line: [Building C object CMakeFiles/cmTC_ac099.dir/OpenMPTryFlag.c.o]
+        ignore line: [/usr/bin/cc   -O3 -march=native -ffast-math -Wall -fopenmp -v -std=gnu11 -o CMakeFiles/cmTC_ac099.dir/OpenMPTryFlag.c.o -c /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-cK8Yml/OpenMPTryFlag.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -1159,8 +1159,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.3.1 20250523 (Red Hat 14.3.1-1) (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_6ef58.dir/OpenMPTryFlag.c.o' '-c' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6ef58.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/cc1 -quiet -v -D_REENTRANT /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-qmUFbC/OpenMPTryFlag.c -march=alderlake -mmmx -mpopcnt -msse -msse2 -msse3 -mssse3 -msse4.1 -msse4.2 -mavx -mavx2 -mno-sse4a -mno-fma4 -mno-xop -mfma -mno-avx512f -mbmi -mbmi2 -maes -mpclmul -mno-avx512vl -mno-avx512bw -mno-avx512dq -mno-avx512cd -mno-avx512vbmi -mno-avx512ifma -mno-avx512vpopcntdq -mno-avx512vbmi2 -mgfni -mvpclmulqdq -mno-avx512vnni -mno-avx512bitalg -mno-avx512bf16 -mno-avx512vp2intersect -mno-3dnow -madx -mabm -mno-cldemote -mclflushopt -mclwb -mno-clzero -mcx16 -mno-enqcmd -mf16c -mfsgsbase -mfxsr -mno-hle -msahf -mno-lwp -mlzcnt -mmovbe -mmovdir64b -mmovdiri -mno-mwaitx -mno-pconfig -mpku -mprfchw -mptwrite -mrdpid -mrdrnd -mrdseed -mno-rtm -mserialize -mno-sgx -msha -mshstk -mno-tbm -mno-tsxldtrk -mvaes -mwaitpkg -mno-wbnoinvd -mxsave -mxsavec -mxsaveopt -mxsaves -mno-amx-tile -mno-amx-int8 -mno-amx-bf16 -mno-uintr -mhreset -mno-kl -mno-widekl -mavxvnni -mno-avx512fp16 -mno-avxifma -mno-avxvnniint8 -mno-avxneconvert -mno-cmpccxadd -mno-amx-fp16 -mno-prefetchi -mno-raoint -mno-amx-complex -mno-avxvnniint16 -mno-sm3 -mno-sha512 -mno-sm4 -mno-apxf -mno-usermsr --param l1-cache-size=32 --param l1-cache-line-size=64 --param l2-cache-size=24576 -mtune=alderlake -quiet -dumpdir CMakeFiles/cmTC_6ef58.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -O3 -Wall -std=gnu11 -version -ffast-math -fopenmp -o /tmp/ccSKwD1M.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_ac099.dir/OpenMPTryFlag.c.o' '-c' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ac099.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/cc1 -quiet -v -D_REENTRANT /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-cK8Yml/OpenMPTryFlag.c -march=alderlake -mmmx -mpopcnt -msse -msse2 -msse3 -mssse3 -msse4.1 -msse4.2 -mavx -mavx2 -mno-sse4a -mno-fma4 -mno-xop -mfma -mno-avx512f -mbmi -mbmi2 -maes -mpclmul -mno-avx512vl -mno-avx512bw -mno-avx512dq -mno-avx512cd -mno-avx512vbmi -mno-avx512ifma -mno-avx512vpopcntdq -mno-avx512vbmi2 -mgfni -mvpclmulqdq -mno-avx512vnni -mno-avx512bitalg -mno-avx512bf16 -mno-avx512vp2intersect -mno-3dnow -madx -mabm -mno-cldemote -mclflushopt -mclwb -mno-clzero -mcx16 -mno-enqcmd -mf16c -mfsgsbase -mfxsr -mno-hle -msahf -mno-lwp -mlzcnt -mmovbe -mmovdir64b -mmovdiri -mno-mwaitx -mno-pconfig -mpku -mprfchw -mptwrite -mrdpid -mrdrnd -mrdseed -mno-rtm -mserialize -mno-sgx -msha -mshstk -mno-tbm -mno-tsxldtrk -mvaes -mwaitpkg -mno-wbnoinvd -mxsave -mxsavec -mxsaveopt -mxsaves -mno-amx-tile -mno-amx-int8 -mno-amx-bf16 -mno-uintr -mhreset -mno-kl -mno-widekl -mavxvnni -mno-avx512fp16 -mno-avxifma -mno-avxvnniint8 -mno-avxneconvert -mno-cmpccxadd -mno-amx-fp16 -mno-prefetchi -mno-raoint -mno-amx-complex -mno-avxvnniint16 -mno-sm3 -mno-sha512 -mno-sm4 -mno-apxf -mno-usermsr --param l1-cache-size=48 --param l1-cache-line-size=64 --param l2-cache-size=24576 -mtune=alderlake -quiet -dumpdir CMakeFiles/cmTC_ac099.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -O3 -Wall -std=gnu11 -version -ffast-math -fopenmp -o /tmp/cc7obzf4.s]
         ignore line: [GNU C11 (GCC) version 14.3.1 20250523 (Red Hat 14.3.1-1) (x86_64-redhat-linux)]
         ignore line: [	compiled by GNU C version 14.3.1 20250523 (Red Hat 14.3.1-1)  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -1174,15 +1174,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 100e26a9889a175af1ac98a343c13777]
-        ignore line: [COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_6ef58.dir/OpenMPTryFlag.c.o' '-c' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6ef58.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_6ef58.dir/OpenMPTryFlag.c.o /tmp/ccSKwD1M.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_ac099.dir/OpenMPTryFlag.c.o' '-c' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ac099.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_ac099.dir/OpenMPTryFlag.c.o /tmp/cc7obzf4.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-redhat-linux) using BFD version version 2.43.1-5.fc41]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_6ef58.dir/OpenMPTryFlag.c.o' '-c' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6ef58.dir/OpenMPTryFlag.c.']
-        ignore line: [Linking C executable cmTC_6ef58]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ef58.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc    -O3 -march=native -ffast-math -Wall -fopenmp -v CMakeFiles/cmTC_6ef58.dir/OpenMPTryFlag.c.o -o cmTC_6ef58  -v]
+        ignore line: [COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_ac099.dir/OpenMPTryFlag.c.o' '-c' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ac099.dir/OpenMPTryFlag.c.']
+        ignore line: [Linking C executable cmTC_ac099]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac099.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc    -O3 -march=native -ffast-math -Wall -fopenmp -v CMakeFiles/cmTC_ac099.dir/OpenMPTryFlag.c.o -o cmTC_ac099  -v]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper]
@@ -1196,13 +1196,13 @@ events:
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
         ignore line: [Reading specs from /usr/lib/gcc/x86_64-redhat-linux/14/libgomp.spec]
-        ignore line: [COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'cmTC_6ef58' '-v' '-pthread' '-dumpdir' 'cmTC_6ef58.']
-        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjkkeCS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6ef58 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o /usr/lib/gcc/x86_64-redhat-linux/14/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. CMakeFiles/cmTC_6ef58.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtfastmath.o /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o /usr/lib/gcc/x86_64-redhat-linux/14/crtoffloadend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'cmTC_ac099' '-v' '-pthread' '-dumpdir' 'cmTC_ac099.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cceImS4V.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ac099 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o /usr/lib/gcc/x86_64-redhat-linux/14/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. CMakeFiles/cmTC_ac099.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtfastmath.o /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o /usr/lib/gcc/x86_64-redhat-linux/14/crtoffloadend.o]
           arg [/usr/libexec/gcc/x86_64-redhat-linux/14/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccjkkeCS.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cceImS4V.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -1218,13 +1218,13 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_6ef58] ==> ignore
+          arg [cmTC_ac099] ==> ignore
           arg [-L/usr/lib/gcc/x86_64-redhat-linux/14] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14]
           arg [-L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64]
           arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
           arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
           arg [-L/usr/lib/gcc/x86_64-redhat-linux/14/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../..]
-          arg [CMakeFiles/cmTC_6ef58.dir/OpenMPTryFlag.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_ac099.dir/OpenMPTryFlag.c.o] ==> ignore
           arg [-lgomp] ==> lib [gomp]
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
@@ -1257,8 +1257,8 @@ events:
       - "CMakeLists.txt:30 (find_package)"
     description: "Detecting CXX OpenMP compiler info"
     directories:
-      source: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-wociku"
-      binary: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-wociku"
+      source: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-AWwNCw"
+      binary: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-AWwNCw"
     cmakeVariables:
       CMAKE_CUDA_ARCHITECTURES: "52"
       CMAKE_CXX_FLAGS: " -O3 -march=native -ffast-math -Wall"
@@ -1268,13 +1268,13 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-wociku'
+        Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-AWwNCw'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_46bd5/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_46bd5.dir/build.make CMakeFiles/cmTC_46bd5.dir/build
-        gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-wociku'
-        Building CXX object CMakeFiles/cmTC_46bd5.dir/OpenMPTryFlag.cpp.o
-        /usr/bin/c++   -O3 -march=native -ffast-math -Wall -fopenmp -v -o CMakeFiles/cmTC_46bd5.dir/OpenMPTryFlag.cpp.o -c /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-wociku/OpenMPTryFlag.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ca367/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ca367.dir/build.make CMakeFiles/cmTC_ca367.dir/build
+        gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-AWwNCw'
+        Building CXX object CMakeFiles/cmTC_ca367.dir/OpenMPTryFlag.cpp.o
+        /usr/bin/c++   -O3 -march=native -ffast-math -Wall -fopenmp -v -o CMakeFiles/cmTC_ca367.dir/OpenMPTryFlag.cpp.o -c /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-AWwNCw/OpenMPTryFlag.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -1284,8 +1284,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.3.1 20250523 (Red Hat 14.3.1-1) (GCC) 
-        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_46bd5.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_46bd5.dir/'
-         /usr/libexec/gcc/x86_64-redhat-linux/14/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-wociku/OpenMPTryFlag.cpp -march=alderlake -mmmx -mpopcnt -msse -msse2 -msse3 -mssse3 -msse4.1 -msse4.2 -mavx -mavx2 -mno-sse4a -mno-fma4 -mno-xop -mfma -mno-avx512f -mbmi -mbmi2 -maes -mpclmul -mno-avx512vl -mno-avx512bw -mno-avx512dq -mno-avx512cd -mno-avx512vbmi -mno-avx512ifma -mno-avx512vpopcntdq -mno-avx512vbmi2 -mgfni -mvpclmulqdq -mno-avx512vnni -mno-avx512bitalg -mno-avx512bf16 -mno-avx512vp2intersect -mno-3dnow -madx -mabm -mno-cldemote -mclflushopt -mclwb -mno-clzero -mcx16 -mno-enqcmd -mf16c -mfsgsbase -mfxsr -mno-hle -msahf -mno-lwp -mlzcnt -mmovbe -mmovdir64b -mmovdiri -mno-mwaitx -mno-pconfig -mpku -mprfchw -mptwrite -mrdpid -mrdrnd -mrdseed -mno-rtm -mserialize -mno-sgx -msha -mshstk -mno-tbm -mno-tsxldtrk -mvaes -mwaitpkg -mno-wbnoinvd -mxsave -mxsavec -mxsaveopt -mxsaves -mno-amx-tile -mno-amx-int8 -mno-amx-bf16 -mno-uintr -mhreset -mno-kl -mno-widekl -mavxvnni -mno-avx512fp16 -mno-avxifma -mno-avxvnniint8 -mno-avxneconvert -mno-cmpccxadd -mno-amx-fp16 -mno-prefetchi -mno-raoint -mno-amx-complex -mno-avxvnniint16 -mno-sm3 -mno-sha512 -mno-sm4 -mno-apxf -mno-usermsr --param l1-cache-size=32 --param l1-cache-line-size=64 --param l2-cache-size=24576 -mtune=alderlake -quiet -dumpdir CMakeFiles/cmTC_46bd5.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -O3 -Wall -version -ffast-math -fopenmp -o /tmp/cc87jDk0.s
+        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ca367.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ca367.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-AWwNCw/OpenMPTryFlag.cpp -march=alderlake -mmmx -mpopcnt -msse -msse2 -msse3 -mssse3 -msse4.1 -msse4.2 -mavx -mavx2 -mno-sse4a -mno-fma4 -mno-xop -mfma -mno-avx512f -mbmi -mbmi2 -maes -mpclmul -mno-avx512vl -mno-avx512bw -mno-avx512dq -mno-avx512cd -mno-avx512vbmi -mno-avx512ifma -mno-avx512vpopcntdq -mno-avx512vbmi2 -mgfni -mvpclmulqdq -mno-avx512vnni -mno-avx512bitalg -mno-avx512bf16 -mno-avx512vp2intersect -mno-3dnow -madx -mabm -mno-cldemote -mclflushopt -mclwb -mno-clzero -mcx16 -mno-enqcmd -mf16c -mfsgsbase -mfxsr -mno-hle -msahf -mno-lwp -mlzcnt -mmovbe -mmovdir64b -mmovdiri -mno-mwaitx -mno-pconfig -mpku -mprfchw -mptwrite -mrdpid -mrdrnd -mrdseed -mno-rtm -mserialize -mno-sgx -msha -mshstk -mno-tbm -mno-tsxldtrk -mvaes -mwaitpkg -mno-wbnoinvd -mxsave -mxsavec -mxsaveopt -mxsaves -mno-amx-tile -mno-amx-int8 -mno-amx-bf16 -mno-uintr -mhreset -mno-kl -mno-widekl -mavxvnni -mno-avx512fp16 -mno-avxifma -mno-avxvnniint8 -mno-avxneconvert -mno-cmpccxadd -mno-amx-fp16 -mno-prefetchi -mno-raoint -mno-amx-complex -mno-avxvnniint16 -mno-sm3 -mno-sha512 -mno-sm4 -mno-apxf -mno-usermsr --param l1-cache-size=48 --param l1-cache-line-size=64 --param l2-cache-size=24576 -mtune=alderlake -quiet -dumpdir CMakeFiles/cmTC_ca367.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -O3 -Wall -version -ffast-math -fopenmp -o /tmp/ccKH7flg.s
         GNU C++17 (GCC) version 14.3.1 20250523 (Red Hat 14.3.1-1) (x86_64-redhat-linux)
         	compiled by GNU C version 14.3.1 20250523 (Red Hat 14.3.1-1), GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.24-GMP
         
@@ -1302,15 +1302,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 46b68aa2a7742135a1138febf4cf5b72
-        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_46bd5.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_46bd5.dir/'
-         as -v --64 -o CMakeFiles/cmTC_46bd5.dir/OpenMPTryFlag.cpp.o /tmp/cc87jDk0.s
+        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ca367.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ca367.dir/'
+         as -v --64 -o CMakeFiles/cmTC_ca367.dir/OpenMPTryFlag.cpp.o /tmp/ccKH7flg.s
         GNU assembler version 2.43.1 (x86_64-redhat-linux) using BFD version version 2.43.1-5.fc41
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_46bd5.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_46bd5.dir/OpenMPTryFlag.cpp.'
-        Linking CXX executable cmTC_46bd5
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46bd5.dir/link.txt --verbose=1
-        /usr/bin/c++  -O3 -march=native -ffast-math -Wall -fopenmp -v CMakeFiles/cmTC_46bd5.dir/OpenMPTryFlag.cpp.o -o cmTC_46bd5  -v
+        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ca367.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ca367.dir/OpenMPTryFlag.cpp.'
+        Linking CXX executable cmTC_ca367
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca367.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -ffast-math -Wall -fopenmp -v CMakeFiles/cmTC_ca367.dir/OpenMPTryFlag.cpp.o -o cmTC_ca367  -v
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper
@@ -1324,10 +1324,10 @@ events:
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
         Reading specs from /usr/lib/gcc/x86_64-redhat-linux/14/libgomp.spec
-        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'cmTC_46bd5' '-v' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-pthread' '-dumpdir' 'cmTC_46bd5.'
-         /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTR5SAQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_46bd5 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o /usr/lib/gcc/x86_64-redhat-linux/14/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. CMakeFiles/cmTC_46bd5.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtfastmath.o /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o /usr/lib/gcc/x86_64-redhat-linux/14/crtoffloadend.o
-        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'cmTC_46bd5' '-v' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-pthread' '-dumpdir' 'cmTC_46bd5.'
-        gmake[1]: Leaving directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-wociku'
+        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'cmTC_ca367' '-v' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-pthread' '-dumpdir' 'cmTC_ca367.'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFRlEKY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ca367 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o /usr/lib/gcc/x86_64-redhat-linux/14/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. CMakeFiles/cmTC_ca367.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtfastmath.o /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o /usr/lib/gcc/x86_64-redhat-linux/14/crtoffloadend.o
+        COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'cmTC_ca367' '-v' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-pthread' '-dumpdir' 'cmTC_ca367.'
+        gmake[1]: Leaving directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-AWwNCw'
         
       exitCode: 0
   -
@@ -1339,13 +1339,13 @@ events:
     message: |
       Parsed CXX OpenMP implicit link information from above output:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-wociku']
+        ignore line: [Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-AWwNCw']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_46bd5/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_46bd5.dir/build.make CMakeFiles/cmTC_46bd5.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-wociku']
-        ignore line: [Building CXX object CMakeFiles/cmTC_46bd5.dir/OpenMPTryFlag.cpp.o]
-        ignore line: [/usr/bin/c++   -O3 -march=native -ffast-math -Wall -fopenmp -v -o CMakeFiles/cmTC_46bd5.dir/OpenMPTryFlag.cpp.o -c /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-wociku/OpenMPTryFlag.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ca367/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_ca367.dir/build.make CMakeFiles/cmTC_ca367.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-AWwNCw']
+        ignore line: [Building CXX object CMakeFiles/cmTC_ca367.dir/OpenMPTryFlag.cpp.o]
+        ignore line: [/usr/bin/c++   -O3 -march=native -ffast-math -Wall -fopenmp -v -o CMakeFiles/cmTC_ca367.dir/OpenMPTryFlag.cpp.o -c /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-AWwNCw/OpenMPTryFlag.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -1355,8 +1355,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.3.1 20250523 (Red Hat 14.3.1-1) (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_46bd5.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_46bd5.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-wociku/OpenMPTryFlag.cpp -march=alderlake -mmmx -mpopcnt -msse -msse2 -msse3 -mssse3 -msse4.1 -msse4.2 -mavx -mavx2 -mno-sse4a -mno-fma4 -mno-xop -mfma -mno-avx512f -mbmi -mbmi2 -maes -mpclmul -mno-avx512vl -mno-avx512bw -mno-avx512dq -mno-avx512cd -mno-avx512vbmi -mno-avx512ifma -mno-avx512vpopcntdq -mno-avx512vbmi2 -mgfni -mvpclmulqdq -mno-avx512vnni -mno-avx512bitalg -mno-avx512bf16 -mno-avx512vp2intersect -mno-3dnow -madx -mabm -mno-cldemote -mclflushopt -mclwb -mno-clzero -mcx16 -mno-enqcmd -mf16c -mfsgsbase -mfxsr -mno-hle -msahf -mno-lwp -mlzcnt -mmovbe -mmovdir64b -mmovdiri -mno-mwaitx -mno-pconfig -mpku -mprfchw -mptwrite -mrdpid -mrdrnd -mrdseed -mno-rtm -mserialize -mno-sgx -msha -mshstk -mno-tbm -mno-tsxldtrk -mvaes -mwaitpkg -mno-wbnoinvd -mxsave -mxsavec -mxsaveopt -mxsaves -mno-amx-tile -mno-amx-int8 -mno-amx-bf16 -mno-uintr -mhreset -mno-kl -mno-widekl -mavxvnni -mno-avx512fp16 -mno-avxifma -mno-avxvnniint8 -mno-avxneconvert -mno-cmpccxadd -mno-amx-fp16 -mno-prefetchi -mno-raoint -mno-amx-complex -mno-avxvnniint16 -mno-sm3 -mno-sha512 -mno-sm4 -mno-apxf -mno-usermsr --param l1-cache-size=32 --param l1-cache-line-size=64 --param l2-cache-size=24576 -mtune=alderlake -quiet -dumpdir CMakeFiles/cmTC_46bd5.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -O3 -Wall -version -ffast-math -fopenmp -o /tmp/cc87jDk0.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ca367.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ca367.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-AWwNCw/OpenMPTryFlag.cpp -march=alderlake -mmmx -mpopcnt -msse -msse2 -msse3 -mssse3 -msse4.1 -msse4.2 -mavx -mavx2 -mno-sse4a -mno-fma4 -mno-xop -mfma -mno-avx512f -mbmi -mbmi2 -maes -mpclmul -mno-avx512vl -mno-avx512bw -mno-avx512dq -mno-avx512cd -mno-avx512vbmi -mno-avx512ifma -mno-avx512vpopcntdq -mno-avx512vbmi2 -mgfni -mvpclmulqdq -mno-avx512vnni -mno-avx512bitalg -mno-avx512bf16 -mno-avx512vp2intersect -mno-3dnow -madx -mabm -mno-cldemote -mclflushopt -mclwb -mno-clzero -mcx16 -mno-enqcmd -mf16c -mfsgsbase -mfxsr -mno-hle -msahf -mno-lwp -mlzcnt -mmovbe -mmovdir64b -mmovdiri -mno-mwaitx -mno-pconfig -mpku -mprfchw -mptwrite -mrdpid -mrdrnd -mrdseed -mno-rtm -mserialize -mno-sgx -msha -mshstk -mno-tbm -mno-tsxldtrk -mvaes -mwaitpkg -mno-wbnoinvd -mxsave -mxsavec -mxsaveopt -mxsaves -mno-amx-tile -mno-amx-int8 -mno-amx-bf16 -mno-uintr -mhreset -mno-kl -mno-widekl -mavxvnni -mno-avx512fp16 -mno-avxifma -mno-avxvnniint8 -mno-avxneconvert -mno-cmpccxadd -mno-amx-fp16 -mno-prefetchi -mno-raoint -mno-amx-complex -mno-avxvnniint16 -mno-sm3 -mno-sha512 -mno-sm4 -mno-apxf -mno-usermsr --param l1-cache-size=48 --param l1-cache-line-size=64 --param l2-cache-size=24576 -mtune=alderlake -quiet -dumpdir CMakeFiles/cmTC_ca367.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -O3 -Wall -version -ffast-math -fopenmp -o /tmp/ccKH7flg.s]
         ignore line: [GNU C++17 (GCC) version 14.3.1 20250523 (Red Hat 14.3.1-1) (x86_64-redhat-linux)]
         ignore line: [	compiled by GNU C version 14.3.1 20250523 (Red Hat 14.3.1-1)  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -1373,15 +1373,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 46b68aa2a7742135a1138febf4cf5b72]
-        ignore line: [COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_46bd5.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_46bd5.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_46bd5.dir/OpenMPTryFlag.cpp.o /tmp/cc87jDk0.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ca367.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ca367.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_ca367.dir/OpenMPTryFlag.cpp.o /tmp/ccKH7flg.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-redhat-linux) using BFD version version 2.43.1-5.fc41]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_46bd5.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_46bd5.dir/OpenMPTryFlag.cpp.']
-        ignore line: [Linking CXX executable cmTC_46bd5]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46bd5.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -O3 -march=native -ffast-math -Wall -fopenmp -v CMakeFiles/cmTC_46bd5.dir/OpenMPTryFlag.cpp.o -o cmTC_46bd5  -v]
+        ignore line: [COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_ca367.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_ca367.dir/OpenMPTryFlag.cpp.']
+        ignore line: [Linking CXX executable cmTC_ca367]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca367.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -O3 -march=native -ffast-math -Wall -fopenmp -v CMakeFiles/cmTC_ca367.dir/OpenMPTryFlag.cpp.o -o cmTC_ca367  -v]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper]
@@ -1395,13 +1395,13 @@ events:
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
         ignore line: [Reading specs from /usr/lib/gcc/x86_64-redhat-linux/14/libgomp.spec]
-        ignore line: [COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'cmTC_46bd5' '-v' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-pthread' '-dumpdir' 'cmTC_46bd5.']
-        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTR5SAQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_46bd5 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o /usr/lib/gcc/x86_64-redhat-linux/14/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. CMakeFiles/cmTC_46bd5.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtfastmath.o /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o /usr/lib/gcc/x86_64-redhat-linux/14/crtoffloadend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-O3' '-march=native' '-ffast-math' '-Wall' '-fopenmp' '-v' '-o' 'cmTC_ca367' '-v' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-pthread' '-dumpdir' 'cmTC_ca367.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFRlEKY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ca367 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o /usr/lib/gcc/x86_64-redhat-linux/14/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. CMakeFiles/cmTC_ca367.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtfastmath.o /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o /usr/lib/gcc/x86_64-redhat-linux/14/crtoffloadend.o]
           arg [/usr/libexec/gcc/x86_64-redhat-linux/14/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccTR5SAQ.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccFRlEKY.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -1417,13 +1417,13 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_46bd5] ==> ignore
+          arg [cmTC_ca367] ==> ignore
           arg [-L/usr/lib/gcc/x86_64-redhat-linux/14] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14]
           arg [-L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64]
           arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
           arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
           arg [-L/usr/lib/gcc/x86_64-redhat-linux/14/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../..]
-          arg [CMakeFiles/cmTC_46bd5.dir/OpenMPTryFlag.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_ca367.dir/OpenMPTryFlag.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgomp] ==> lib [gomp]
@@ -1452,8 +1452,8 @@ events:
       - "CMakeLists.txt:30 (find_package)"
     description: "Detecting C OpenMP version"
     directories:
-      source: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-uvKPeh"
-      binary: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-uvKPeh"
+      source: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-Ufzxn4"
+      binary: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-Ufzxn4"
     cmakeVariables:
       CMAKE_CUDA_ARCHITECTURES: "52"
       CMAKE_C_FLAGS: "   -O3 -march=native -ffast-math -Wall"
@@ -1463,17 +1463,17 @@ events:
       variable: "OpenMP_SPECTEST_C_"
       cached: true
       stdout: |
-        Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-uvKPeh'
+        Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-Ufzxn4'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_76074/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_76074.dir/build.make CMakeFiles/cmTC_76074.dir/build
-        gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-uvKPeh'
-        Building C object CMakeFiles/cmTC_76074.dir/OpenMPCheckVersion.c.o
-        /usr/bin/cc   -O3 -march=native -ffast-math -Wall -fopenmp -std=gnu11 -o CMakeFiles/cmTC_76074.dir/OpenMPCheckVersion.c.o -c /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-uvKPeh/OpenMPCheckVersion.c
-        Linking C executable cmTC_76074
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76074.dir/link.txt --verbose=1
-        /usr/bin/cc    -O3 -march=native -ffast-math -Wall -fopenmp CMakeFiles/cmTC_76074.dir/OpenMPCheckVersion.c.o -o cmTC_76074
-        gmake[1]: Leaving directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-uvKPeh'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f1ca4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f1ca4.dir/build.make CMakeFiles/cmTC_f1ca4.dir/build
+        gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-Ufzxn4'
+        Building C object CMakeFiles/cmTC_f1ca4.dir/OpenMPCheckVersion.c.o
+        /usr/bin/cc   -O3 -march=native -ffast-math -Wall -fopenmp -std=gnu11 -o CMakeFiles/cmTC_f1ca4.dir/OpenMPCheckVersion.c.o -c /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-Ufzxn4/OpenMPCheckVersion.c
+        Linking C executable cmTC_f1ca4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1ca4.dir/link.txt --verbose=1
+        /usr/bin/cc    -O3 -march=native -ffast-math -Wall -fopenmp CMakeFiles/cmTC_f1ca4.dir/OpenMPCheckVersion.c.o -o cmTC_f1ca4
+        gmake[1]: Leaving directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-Ufzxn4'
         
       exitCode: 0
   -
@@ -1484,8 +1484,8 @@ events:
       - "CMakeLists.txt:30 (find_package)"
     description: "Detecting CXX OpenMP version"
     directories:
-      source: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-OB8I6X"
-      binary: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-OB8I6X"
+      source: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-YE8gN7"
+      binary: "/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-YE8gN7"
     cmakeVariables:
       CMAKE_CUDA_ARCHITECTURES: "52"
       CMAKE_CXX_FLAGS: " -O3 -march=native -ffast-math -Wall"
@@ -1495,17 +1495,17 @@ events:
       variable: "OpenMP_SPECTEST_CXX_"
       cached: true
       stdout: |
-        Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-OB8I6X'
+        Change Dir: '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-YE8gN7'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4ed29/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_4ed29.dir/build.make CMakeFiles/cmTC_4ed29.dir/build
-        gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-OB8I6X'
-        Building CXX object CMakeFiles/cmTC_4ed29.dir/OpenMPCheckVersion.cpp.o
-        /usr/bin/c++   -O3 -march=native -ffast-math -Wall -fopenmp -o CMakeFiles/cmTC_4ed29.dir/OpenMPCheckVersion.cpp.o -c /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-OB8I6X/OpenMPCheckVersion.cpp
-        Linking CXX executable cmTC_4ed29
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ed29.dir/link.txt --verbose=1
-        /usr/bin/c++  -O3 -march=native -ffast-math -Wall -fopenmp CMakeFiles/cmTC_4ed29.dir/OpenMPCheckVersion.cpp.o -o cmTC_4ed29
-        gmake[1]: Leaving directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-OB8I6X'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d1386/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d1386.dir/build.make CMakeFiles/cmTC_d1386.dir/build
+        gmake[1]: Entering directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-YE8gN7'
+        Building CXX object CMakeFiles/cmTC_d1386.dir/OpenMPCheckVersion.cpp.o
+        /usr/bin/c++   -O3 -march=native -ffast-math -Wall -fopenmp -o CMakeFiles/cmTC_d1386.dir/OpenMPCheckVersion.cpp.o -c /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-YE8gN7/OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_d1386
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1386.dir/link.txt --verbose=1
+        /usr/bin/c++  -O3 -march=native -ffast-math -Wall -fopenmp CMakeFiles/cmTC_d1386.dir/OpenMPCheckVersion.cpp.o -o cmTC_d1386
+        gmake[1]: Leaving directory '/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build/CMakeFiles/CMakeScratch/TryCompile-YE8gN7'
         
       exitCode: 0
 ...

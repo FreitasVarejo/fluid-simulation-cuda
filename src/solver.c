@@ -22,70 +22,60 @@ void initialize(double u[NX][NY], double v[NX][NY], double p[NX][NY]) {
 
 
 // Função para resolver a equação de Poisson para pressão
-void solve_pressure(double u[NX][NY], double v[NX][NY], double p[NX][NY])
+/* ------------------------------------------------------------------------- */
+void solve_pressure(double u[NX][NY],
+                    double v[NX][NY],
+                    double p[NX][NY])
 {
     static double p_new[NX][NY];
-    const int    max_iter   = 1000;
-    const double tolerance  = 1e-6;
+    const int    max_iter = 1000;
+    const double tol      = 1e-6;
 
+    /* cópia inicial ------------------------------------------------- */
     #pragma omp parallel for collapse(2)
     for (int i = 0; i < NX; ++i)
         for (int j = 0; j < NY; ++j)
             p_new[i][j] = p[i][j];
 
-    int    iter;
-    double max_error;
+    for (int it = 0; it < max_iter; ++it) {
 
-    // laço de relaxação
-    #pragma omp parallel
-    {
-        for (iter = 0; iter < max_iter; ++iter) {
+        double max_err = 0.0;                 /* agora é SHARED        */
 
-            double local_max = 0.0;
-            #pragma omp for collapse(2) nowait
-            for (int i = 1; i < NX - 1; ++i) {
-                for (int j = 1; j < NY - 1; ++j) {
+        #pragma omp parallel for collapse(2) reduction(max:max_err)
+        for (int i = 1; i < NX - 1; ++i)
+            for (int j = 1; j < NY - 1; ++j) {
 
-                    const double div_u =
-                          (u[i+1][j] - u[i-1][j]) * (0.5 / DX)
-                        + (v[i][j+1] - v[i][j-1]) * (0.5 / DY);
+                const double div_u =
+                      (u[i+1][j] - u[i-1][j]) * (0.5 / DX)
+                    + (v[i][j+1] - v[i][j-1]) * (0.5 / DY);
 
-                    const double p_old = p_new[i][j];
+                const double p_old = p_new[i][j];
 
-                    p_new[i][j] = ( (p_new[i+1][j] + p_new[i-1][j]) * DY*DY +
-                                    (p_new[i][j+1] + p_new[i][j-1]) * DX*DX -
-                                    RHO * DX*DX * DY*DY * div_u / DT ) /
-                                   (2.0 * (DX*DX + DY*DY));
+                p_new[i][j] = ( (p_new[i+1][j] + p_new[i-1][j]) * DY*DY +
+                                (p_new[i][j+1] + p_new[i][j-1]) * DX*DX -
+                                RHO * DX*DX * DY*DY * div_u / DT ) /
+                               (2.0 * (DX*DX + DY*DY));
 
-                    const double err = fabs(p_new[i][j] - p_old);
-                    if (err > local_max) local_max = err;
-                }
+                double err = fabs(p_new[i][j] - p_old);
+                if (err > max_err) max_err = err;   /* redução faz o resto */
             }
 
-            #pragma omp critical
-            {
-                if (local_max > max_error) max_error = local_max;
-            }
-            #pragma omp barrier
+        if (max_err < tol) break;             /* convergiu? ---------- */
 
-            if (max_error <= tolerance) break;
-            max_error = 0.0;
-
-            #pragma omp single
-            {
-                for (int i = 0; i < NX; ++i) {
-                    p_new[i][0]    = p_new[i][1];
-                    p_new[i][NY-1] = p_new[i][NY-2];
-                }
-                for (int j = 0; j < NY; ++j) {
-                    p_new[0][j]    = p_new[1][j];
-                    p_new[NX-1][j] = p_new[NX-2][j];
-                }
-            }
-            #pragma omp barrier
+        /* fronteiras de Neumann (gradiente zero) -------------------- */
+        #pragma omp parallel for
+        for (int i = 0; i < NX; ++i) {
+            p_new[i][0]    = p_new[i][1];
+            p_new[i][NY-1] = p_new[i][NY-2];
+        }
+        #pragma omp parallel for
+        for (int j = 0; j < NY; ++j) {
+            p_new[0][j]    = p_new[1][j];
+            p_new[NX-1][j] = p_new[NX-2][j];
         }
     }
 
+    /* cópia de volta ------------------------------------------------ */
     #pragma omp parallel for collapse(2)
     for (int i = 0; i < NX; ++i)
         for (int j = 0; j < NY; ++j)
@@ -96,75 +86,73 @@ void update_velocities(double u[NX][NY],
                        double v[NX][NY],
                        double p[NX][NY])
 {
-    /* buffers alinhados para ajudar o vetor de 512 bits das AVX-512 */
     static double u_new[NX][NY] __attribute__((aligned(64)));
     static double v_new[NX][NY] __attribute__((aligned(64)));
 
-    /* ───── varredura em blocos (tiling espacial) ─────────────────── */
-    for (int ii = 1; ii < NX-1; ii += TILE) {
-        for (int jj = 1; jj < NY-1; jj += TILE) {
+    #pragma omp parallel
+    {
+        /* varredura em blocos (tiling) – paralelo só no nível externo ------ */
+        for (int ii = 1; ii < NX - 1; ii += TILE)
+            for (int jj = 1; jj < NY - 1; jj += TILE) {
 
-            const int i_max = (ii + TILE < NX-1) ? ii + TILE : NX-1;
-            const int j_max = (jj + TILE < NY-1) ? jj + TILE : NY-1;
+                const int i_max = (ii + TILE < NX - 1) ? ii + TILE : NX - 1;
+                const int j_max = (jj + TILE < NY - 1) ? jj + TILE : NY - 1;
 
-            /* paralelismo entre linhas ................................ */
-            #pragma omp parallel for schedule(static)
-            for (int i = ii; i < i_max; ++i) {
+                #pragma omp for schedule(static)
+                for (int i = ii; i < i_max; ++i) {
 
-                /* vetorização sobre colunas ........................... */
-                #pragma omp simd
-                for (int j = jj; j < j_max; ++j) {
+                    #pragma omp simd
+                    for (int j = jj; j < j_max; ++j) {
 
-                    /* convection */
-                    const double u_conv =  u[i][j]*(u[i+1][j] - u[i-1][j])*(0.5 / DX)
-                                         + v[i][j]*(u[i][j+1] - u[i][j-1])*(0.5 / DY);
+                        /* convecção */
+                        const double u_conv = u[i][j]*(u[i+1][j]-u[i-1][j])*(0.5/DX)
+                                            + v[i][j]*(u[i][j+1]-u[i][j-1])*(0.5/DY);
 
-                    const double v_conv =  u[i][j]*(v[i+1][j] - v[i-1][j])*(0.5 / DX)
-                                         + v[i][j]*(v[i][j+1] - v[i][j-1])*(0.5 / DY);
+                        const double v_conv = u[i][j]*(v[i+1][j]-v[i-1][j])*(0.5/DX)
+                                            + v[i][j]*(v[i][j+1]-v[i][j-1])*(0.5/DY);
 
-                    /* diffusion */
-                    const double u_diff = NU * ( (u[i+1][j]-2*u[i][j]+u[i-1][j])/(DX*DX)
-                                               + (u[i][j+1]-2*u[i][j]+u[i][j-1])/(DY*DY) );
+                        /* difusão */
+                        const double u_diff = NU*((u[i+1][j]-2*u[i][j]+u[i-1][j])/(DX*DX) +
+                                                  (u[i][j+1]-2*u[i][j]+u[i][j-1])/(DY*DY));
 
-                    const double v_diff = NU * ( (v[i+1][j]-2*v[i][j]+v[i-1][j])/(DX*DX)
-                                               + (v[i][j+1]-2*v[i][j]+v[i][j-1])/(DY*DY) );
+                        const double v_diff = NU*((v[i+1][j]-2*v[i][j]+v[i-1][j])/(DX*DX) +
+                                                  (v[i][j+1]-2*v[i][j]+v[i][j-1])/(DY*DY));
 
-                    /* pressure */
-                    const double u_press = (p[i+1][j] - p[i-1][j])*(0.5 / (DX * RHO));
-                    const double v_press = (p[i][j+1] - p[i][j-1])*(0.5 / (DY * RHO));
+                        /* pressão */
+                        const double u_press = (p[i+1][j]-p[i-1][j])*(0.5/(DX*RHO));
+                        const double v_press = (p[i][j+1]-p[i][j-1])*(0.5/(DY*RHO));
 
-                    /* time-step */
-                    u_new[i][j] = u[i][j] + DT * (-u_conv + u_diff - u_press);
-                    v_new[i][j] = v[i][j] + DT * (-v_conv + v_diff - v_press);
+                        /* passo de tempo */
+                        u_new[i][j] = u[i][j] + DT*(-u_conv + u_diff - u_press);
+                        v_new[i][j] = v[i][j] + DT*(-v_conv + v_diff - v_press);
+                    }
                 }
             }
+
+        /* condições de contorno periódicas --------------------------------- */
+        #pragma omp for
+        for (int i = 0; i < NX; ++i) {
+            u_new[i][0]     = u_new[i][NY-2];
+            u_new[i][NY-1]  = u_new[i][1];
+            v_new[i][0]     = v_new[i][NY-2];
+            v_new[i][NY-1]  = v_new[i][1];
         }
-    }
-
-    /* ───── condições de contorno periódicas ──────────────────────── */
-    #pragma omp parallel for
-    for (int i = 0; i < NX; ++i) {
-        u_new[i][0]     = u_new[i][NY-2];
-        u_new[i][NY-1]  = u_new[i][1];
-        v_new[i][0]     = v_new[i][NY-2];
-        v_new[i][NY-1]  = v_new[i][1];
-    }
-
-    #pragma omp parallel for
-    for (int j = 0; j < NY; ++j) {
-        u_new[0][j]     = u_new[NX-2][j];
-        u_new[NX-1][j]  = u_new[1][j];
-        v_new[0][j]     = v_new[NX-2][j];
-        v_new[NX-1][j]  = v_new[1][j];
-    }
-
-    /* ───── cópia de volta para os arrays originais ───────────────── */
-    #pragma omp parallel for collapse(2)
-    for (int i = 0; i < NX; ++i)
+        #pragma omp for
         for (int j = 0; j < NY; ++j) {
-            u[i][j] = u_new[i][j];
-            v[i][j] = v_new[i][j];
+            u_new[0][j]     = u_new[NX-2][j];
+            u_new[NX-1][j]  = u_new[1][j];
+            v_new[0][j]     = v_new[NX-2][j];
+            v_new[NX-1][j]  = v_new[1][j];
         }
+
+        /* cópia de volta --------------------------------------------------- */
+        #pragma omp for collapse(2)
+        for (int i = 0; i < NX; ++i)
+            for (int j = 0; j < NY; ++j) {
+                u[i][j] = u_new[i][j];
+                v[i][j] = v_new[i][j];
+            }
+    }
 }
 
 // Função para salvar os resultados em um arquivo (não paralelizado - I/O)
