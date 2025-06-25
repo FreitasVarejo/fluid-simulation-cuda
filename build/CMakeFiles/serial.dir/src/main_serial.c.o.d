@@ -34,4 +34,5 @@ CMakeFiles/serial.dir/src/main_serial.c.o: \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
  /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/include/solver.h \
- /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/include/params.h
+ /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/include/params.h \
+ /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/include/helpers.h

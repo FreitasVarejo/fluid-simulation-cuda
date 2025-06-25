@@ -5,6 +5,7 @@
 #include <cuda_runtime.h>
 #include "params.h"
 #include <stdlib.h>
+#include "helpers.h"
 
 #ifndef BLOCK_X
 #define BLOCK_X 32        // defaults p/ build sem -DBLOCK_X
@@ -31,9 +32,9 @@ int main() {
     size_t size = NX * NY * sizeof(double);
 
     // Pega envs
-    const char *variant = getenv("WAVE_VARIANT");
-    const char *cfg     = getenv("WAVE_CFG");
-    const char *param   = getenv("WAVE_PARAM");
+    const char *variant = getenv_or("WAVE_VARIANT", "cuda");
+    const char *cfg     = getenv_or("WAVE_CFG",     "N100_T32_TB1");
+    const char *param   = getenv_or("WAVE_PARAM",   "-");
 
     // Host buffer para salvar p
     double *p_host = (double*)malloc(size);

@@ -242,6 +242,12 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//No help, variable specified on the command line.
+NX:UNINITIALIZED=100
+
+//No help, variable specified on the command line.
+NY:UNINITIALIZED=100
+
 //CXX compiler flags for OpenMP parallelization
 OpenMP_CXX_FLAGS:STRING=-fopenmp
 
@@ -264,7 +270,7 @@ OpenMP_pthread_LIBRARY:FILEPATH=/usr/lib64/libpthread.a
 TB:STRING=1
 
 //CPU cache-blocking tile
-TILE:STRING=32
+TILE:STRING=16
 
 //Value Computed by CMake
 fluid-waves_BINARY_DIR:STATIC=/home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/build

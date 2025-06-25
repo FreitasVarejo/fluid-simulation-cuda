@@ -188,4 +188,5 @@ CMakeFiles/cuda.dir/src/main_cuda.cu.o : /home/freitaspinhe/Desktop/unicamp/mc97
     /usr/include/c++/13/bits/stl_relops.h \
     /usr/include/c++/13/initializer_list \
     /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/include/solver_cuda.h \
-    /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/include/params.h
+    /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/include/params.h \
+    /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/include/helpers.h

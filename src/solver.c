@@ -9,6 +9,7 @@
 #include <omp.h>
 #include "solver.h"
 
+
 void initialize(double u[NX][NY], double v[NX][NY], double p[NX][NY]) {
     #pragma omp parallel for collapse(2)
     for (int i = 0; i < NX; i++) {

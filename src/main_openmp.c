@@ -4,15 +4,15 @@
 #include <stdlib.h>
 #include <omp.h>
 #include "solver.h"
+#include "helpers.h"
 
 int main() {
     double u[NX][NY], v[NX][NY], p[NX][NY];
     initialize(u, v, p);
 
-    const char *variant = getenv("WAVE_VARIANT");
-    const char *cfg     = getenv("WAVE_CFG");
-    const char *param   = getenv("WAVE_PARAM");
-
+    const char *variant = getenv_or("WAVE_VARIANT", "openmp");   // ou "openmp"/"cuda" no respectivo main
+    const char *cfg     = getenv_or("WAVE_CFG",     "N100_T32_TB1");
+    const char *param   = getenv_or("WAVE_PARAM",   "-");
     double start = omp_get_wtime();
     #pragma omp parallel
     {

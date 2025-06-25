@@ -34,4 +34,5 @@ CMakeFiles/openmp.dir/src/main_openmp.c.o: \
  /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
  /usr/lib/gcc/x86_64-redhat-linux/14/include/omp.h \
  /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/include/solver.h \
- /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/include/params.h
+ /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/include/params.h \
+ /home/freitaspinhe/Desktop/unicamp/mc970/fluid-simulation-cuda/include/helpers.h
