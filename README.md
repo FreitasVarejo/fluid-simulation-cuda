@@ -2,6 +2,8 @@
 
 This repository contains a high-performance simulator for two-dimensional incompressible fluid dynamics, solving the Navier–Stokes equations using a finite-difference approach. The main goal is to evaluate and compare different parallelization strategies — serial, OpenMP (multi-threaded CPU), and CUDA (GPU) — applied to the solution of the pressure–velocity coupling problem in fluid simulations.
 
+![Fluid simulation](data/wave.gif)
+
 Originally developed as a final project for the *MC970 – Parallel Programming* course at UNICAMP, the simulator models how a localized pressure perturbation propagates over time. This type of simulation is relevant both academically and practically, appearing in computational fluid dynamics (CFD), computer graphics (e.g. real-time water/smoke effects), and engineering applications.
 
 The project uses a 5-point stencil scheme to discretize spatial derivatives and implements time-stepping with periodic boundary conditions. Because the problem structure is highly parallel, it serves as an excellent benchmark for performance comparison between CPU and GPU architectures.
@@ -80,7 +82,7 @@ cmake --build build -j$(nproc)
 ### 4 · Benchmark via Jupyter
 
 ```bash
-jupyter notebook notebook/runner.ipynb
+jupyter notebook runner.ipynb
 ```
 
 ---
